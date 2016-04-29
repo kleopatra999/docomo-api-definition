@@ -30,8 +30,7 @@
     url: https://dev.smt.docomo.ne.jp/?p=policy
   - type: x-portal
     url: https://dev.smt.docomo.ne.jp/
-  include:
-  - []
+  include: []
   maintainers:
   - FN: Kin Lane
     x-twitter: apievangelist
