@@ -18,9 +18,6 @@
 				"description": "This API enables you to get IDs of your friends who allow you to view their information through Friend Notification Settings.*IDs you can get are only those of your friends linked to the service (client_id) to which you are also linked.*In case end-user has many number of Tsunagari information, it may take long time to get API response.",
 				"operationId": "tsunagari-information-acquisition",
 				"parameters": [{
-					"type": "string"
-				},
-				{
 					"in": "query",
 					"ame": "Authorization",
 					"description": "OAuth authentication scheme.SeeAPI Common Reference2.3 for details.",

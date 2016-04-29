@@ -27,7 +27,6 @@
           it may take long time to get API response.
         operationId: tsunagari-information-acquisition
         parameters:
-        - type: string
         - in: query
           name: Authorization
           description: OAuth authentication scheme.SeeAPI Common Reference2.3 for details.
@@ -1539,7 +1538,7 @@
             description: Failure to obtain a lock. - Failure to obtain a lock.
         tags:
         - Speech
-        - ' Text'
+        - 'Text'
         security: []
     /dialogue/v1/dialogue:
       post:
