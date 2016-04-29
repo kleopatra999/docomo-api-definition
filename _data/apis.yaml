@@ -16,7 +16,9 @@ apis:
   baseURL: ""
   tags:
   - Docomo API Stack
-  properties: []
+  properties:
+  - type: x-openapi-spec
+    url: api-commons/docomo-api-openapi-spec.json
 x-common:
 - type: x-getting-started
   url: https://dev.smt.docomo.ne.jp/?p=about.index
