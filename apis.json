@@ -40,10 +40,7 @@
 		"type": "x-portal",
 		"url": "https://dev.smt.docomo.ne.jp/"
 	}],
-	"include": [{
-		"name": "Parent",
-		"url": "http://docomo.stack.network/apis.json"
-	}],
+	"include": [[]],
 	"maintainers": [{
 		"FN": "Kin Lane",
 		"x-twitter": "apievangelist",
