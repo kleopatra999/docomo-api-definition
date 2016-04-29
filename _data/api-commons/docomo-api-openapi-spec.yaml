@@ -21,9 +21,9 @@
       get:
         summary: Tsunagari Information Acquisition
         description: This API enables you to get IDs of your friends who allow you to
-          view their information through Friend Notification Settings.*IDs you can get
+          view their information through Friend Notification Settings. IDs you can get
           are only those of your friends linked to the service (client_id) to which
-          you are also linked.*In case end-user has many number of Tsunagari information,
+          you are also linked. In case end-user has many number of Tsunagari information,
           it may take long time to get API response.
         operationId: tsunagari-information-acquisition
         parameters:
@@ -744,7 +744,7 @@
           type: string
         - in: query
           name: rev_flg
-          description: Flag to indicate whether subfolders are referenced.*The second
+          description: Flag to indicate whether subfolders are referenced. The second
             layers and beyond also have recursive flags.See u30b3u30fcu30c9u5b9au7fa9(Code
             definition) in thespecificationfor description of setting values.
           type: string
@@ -985,13 +985,13 @@
       post:
         summary: Text image recognition request
         description: Make the acquisition of the character region and the word from
-          the image acquired by the scanner and screen capture (text image).&nbsp;It
-          does not support handwriting and design character.&nbsp;Recognition corresponding
-          language is Japanese, English.&nbsp;Text image recognition request is available
-          up to 500 times per day with a single API key.&nbsp;u203b available number
-          of times are subject to change without notice.&nbsp;Please note.&nbsp;If you
+          the image acquired by the scanner and screen capture (text image). It
+          does not support handwriting and design character. Recognition corresponding
+          language is Japanese, English. Text image recognition request is available
+          up to 500 times per day with a single API key. u203b available number
+          of times are subject to change without notice. Please note. If you
           exceed the usage limit, you can not send a new text image recognition request
-          request with the API key until it is canceled automatically to the next day.&nbsp;
+          request with the API key until it is canceled automatically to the next day.
         operationId: text-image-recognition-request
         parameters:
         - type: string
@@ -1089,7 +1089,7 @@
         - Device
         security: []
     /cocorobo/v1/speech:
-      post&nbsp;:
+      post:
         summary: Voice utterance
         description: ""
         operationId: voice-utterance
@@ -1134,7 +1134,7 @@
         - Speech
         security: []
     /crayonCorp/v1/textToSpeech:
-      post&nbsp;:
+      post:
         summary: Kanji and kana sentence
         description: ""
         operationId: kanji-and-kana-sentence
@@ -1305,7 +1305,7 @@
         - Speech
         security: []
     /crayonCorp/v1/textToSpeechKanaAccent:
-      post&nbsp;:
+      post:
         summary: Kana accent sentence
         description: It returns a string analyzes the voice data.
         operationId: kana-accent-sentence
@@ -1416,7 +1416,7 @@
           name: TextData
           description: Text format of speech synthesis target, specify the Kana accent
             statement.Sample value) NTT tea Tino [/ 05] Onse over Go save engine two
-            [* 09] night [/ 00] Onsedesu ^ [. 01]u203b For Kana accent statement specification,API
+            [  09] night [/ 00] Onsedesu ^ [. 01]u203b For Kana accent statement specification,API
             specificationsee.
           type: string
         - in: query
@@ -1542,9 +1542,9 @@
         - ' Text'
         security: []
     /dialogue/v1/dialogue:
-      post&nbsp;:
+      post:
         summary: Chat dialogue
-        description: '&nbsp;'
+        description:  ''
         operationId: chat-dialogue
         parameters:
         - in: query
@@ -1810,8 +1810,8 @@
     /ekispertCorp/v1/courseCreate:
       get:
         summary: Generation of route
-        description: 'nTrain timetable&nbsp;is the path generation function using the
-          results of.&nbsp;Station, train, date, by setting the time correctly, you
+        description: 'nTrain timetable is the path generation function using the
+          results of. Station, train, date, by setting the time correctly, you
           can generate any of the route.nThe information required to generate a route
           there is something like the following,n &lt;A Requested Procedure Eki&gt;
           (date when the Requested Procedure)? [Train]? (To the time) &lt;to the Eki&gt;nYou
@@ -1820,7 +1820,7 @@
           &amp; fixedDateList = departure date (service day)nFor station code and station
           namenYou can use the station code or station name as the data that identifies
           the station, but if you want to use as a premise to save is recommended to
-          station code.&nbsp;Station name might be changed in the station name was renamed,
+          station code. Station name might be changed in the station name was renamed,
           etc., but brute string to the station name, station code is a constant regardless
           of the change of station name.n'
         operationId: generation-of-route
@@ -1948,7 +1948,7 @@
         description: nObtain multiple combinations of commuter pass which is the basis
           of the refund calculationnFor station code and station namenYou can use the
           station code or station name as the data that identifies the station, but
-          if you want to use as a premise to save is recommended to station code.&nbsp;Station
+          if you want to use as a premise to save is recommended to station code. Station
           name might be changed in the station name was renamed, etc., but brute string
           to the station name, station code is a constant regardless of the change of
           station name.n
@@ -1996,11 +1996,11 @@
         security: []
     /ekispertCorp/v1/courseTimetableTrain:
       get:
-        summary: Interval timetable&nbsp;train information of
-        description: nInterval timetable&nbsp;to get the train information in the datanFor
+        summary: Interval timetable train information of
+        description: nInterval timetable to get the train information in the datanFor
           station code and station namenYou can use the station code or station name
           as the data that identifies the station, but if you want to use as a premise
-          to save is recommended to station code.&nbsp;Station name might be changed
+          to save is recommended to station code. Station name might be changed
           in the station name was renamed, etc., but brute string to the station name,
           station code is a constant regardless of the change of station name.n
         operationId: interval-timetablenbsptrain-information-of
@@ -2035,12 +2035,12 @@
       get:
         summary: Road Exploration
         description: nBetween the specified station or point, and search for a route
-          using public transportation.&nbsp;Search by the average waiting time and,
+          using public transportation. Search by the average waiting time and,
           search by the diamond (departure time search, etc.) can be done.nSearch by
           the average waiting timenTaking into account the average waiting time of the
-          train you do a search for a route.&nbsp;The average waiting time is, thats
+          train you do a search for a route. The average waiting time is, thats
           flying has been set in about 20 minutes, even if there is only one flight
-          per day, it does not match the actual waiting time.&nbsp;In addition, with
+          per day, it does not match the actual waiting time. In addition, with
           regard to the comprehensive coverage that operate by day of the week, we try
           to search for a route to ignore the departure date.nInter u30a4 Yakult ni
           yo ru Exploration (Requested Procedure time to explore, the time to explore,
@@ -2054,7 +2054,7 @@
           airport, the route can not be created in a fixed route, etc.), an empty result
           is returned instead of the error.nFor station code and station namenYou can
           use the station code or station name as the data that identifies the station,
-          but if you want to use as a premise to save is recommended to station code.&nbsp;Station
+          but if you want to use as a premise to save is recommended to station code. Station
           name might be changed in the station name was renamed, etc., but brute string
           to the station name, station code is a constant regardless of the change of
           station name.n
@@ -2173,10 +2173,10 @@
     /ekispertCorp/v1/searchCoursePlain:
       get:
         summary: Average waiting time search
-        description: nThe average waiting time search only&nbsp;route search&nbsp;is.nFor
+        description: nThe average waiting time search only route search is.nFor
           station code and station namenYou can use the station code or station name
           as the data that identifies the station, but if you want to use as a premise
-          to save is recommended to station code.&nbsp;Station name might be changed
+          to save is recommended to station code. Station name might be changed
           in the station name was renamed, etc., but brute string to the station name,
           station code is a constant regardless of the change of station name.n
         operationId: the-average-waiting-time-search
@@ -2255,10 +2255,10 @@
     /ekispertCorp/v1/stationTimetableTrain:
       get:
         summary: Station timetableu00a0train information
-        description: nStation timetable&nbsp;to get the train information in the data.nFor
+        description: nStation timetable to get the train information in the data.nFor
           station code and station namenYou can use the station code or station name
           as the data that identifies the station, but if you want to use as a premise
-          to save is recommended to station code.&nbsp;Station name might be changed
+          to save is recommended to station code. Station name might be changed
           in the station name was renamed, etc., but brute string to the station name,
           station code is a constant regardless of the change of station name.n
         operationId: station-timetablenbsptrain-information-of
@@ -2276,11 +2276,11 @@
     /ekispertCorp/v1/toolboxCourseCondition:
       get:
         summary: Explore condition generation
-        description: nBased on the request parameters&nbsp;route search&nbsp;to generate
+        description: nBased on the request parameters route search to generate
           the conditions to be used for.nIf not specified detail, it generates a search
           condition based on the default of the conditions.nIf you specify the detail,
           and replace the value of the specified parameters with respect to the value
-          of detail.&nbsp;In other words, you can obtain a modification of the part
+          of detail. In other words, you can obtain a modification of the part
           of the detailed search conditions data previously generated.n
         operationId: explore-condition-generation
         parameters:
@@ -2471,10 +2471,10 @@
     /ekispertCorp/v1/toolboxCoursePoint:
       get:
         summary: Location generated
-        description: nRoute search&nbsp;to generate a data point to be used fornFor
+        description: nRoute search to generate a data point to be used fornFor
           station code and station namenYou can use the station code or station name
           as the data that identifies the station, but if you want to use as a premise
-          to save is recommended to station code.&nbsp;Station name might be changed
+          to save is recommended to station code. Station name might be changed
           in the station name was renamed, etc., but brute string to the station name,
           station code is a constant regardless of the change of station name.n
         operationId: location-generated
@@ -2541,7 +2541,7 @@
           2. Get the train timetable and specify the service interval code of the list
           to serviceSectionCodenIt will flow that.nFor station code and station namenYou
           can use the station code or station name as the data that identifies the station,
-          but if you want to use as a premise to save is recommended to station code.&nbsp;Station
+          but if you want to use as a premise to save is recommended to station code. Station
           name might be changed in the station name was renamed, etc., but brute string
           to the station name, station code is a constant regardless of the change of
           station name.n
@@ -2698,7 +2698,7 @@
           type: string
         - in: query
           name: content_list
-          description: 'List of contents satisfying the search conditions.*In case the
+          description: 'List of contents satisfying the search conditions. In case the
             number of Content info. =0 as a result of search, null (the number of elements
             = 0) array.content_list : [ ]'
           type: string
@@ -2726,7 +2726,7 @@
           type: string
         - in: query
           name: file_data_size
-          description: File size of the original (Unit is byte)*(Reference) Max. size
+          description: File size of the original (Unit is byte) (Reference) Max. size
             on the service specification is 30MB
           type: string
         - in: query
@@ -2742,7 +2742,7 @@
           name: max_results(Pagingcondition)
           description: 'Paging condition : Of all the search results, the maximum number
             (Page size) of results returned as responses.minimum : 1maximum : 100default
-            : 100*Internally, the upper limit value and value at omission shall be variables
+            : 100 Internally, the upper limit value and value at omission shall be variables
             defined by property.'
           type: string
         - in: query
@@ -2757,7 +2757,7 @@
           description: 'Filter condition : In case updated date &amp; time of content
             are equal or greater than this item.Specify as far as seconds with the date-time
             format of RFC 3339.Time zone can be set arbitrarily.Sample value)yyyy-mm-ddThh:mi:ss+09:00
-            (Example of JST)yyyy-mm-ddThh:mi:ssZ (Example of UTC)*Not allowed to specify
+            (Example of JST)yyyy-mm-ddThh:mi:ssZ (Example of UTC) Not allowed to specify
             simultaneously with Uploaded date &amp; time (Minimum value)'
           type: string
         - in: query
@@ -2765,7 +2765,7 @@
           description: 'Filter condition : In case uploaded date &amp; time of content
             are equal or greater than this item.Specify as far as seconds with the date-time
             format of RFC 3339.Time zone can be set arbitrarily.Sample value)yyyy-mm-ddThh:mi:ss+09:00
-            (Example of JST)yyyy-mm-ddThh:mi:ssZ (Example of UTC)*Not allowed to specify
+            (Example of JST)yyyy-mm-ddThh:mi:ssZ (Example of UTC) Not allowed to specify
             simultaneously with Updated date &amp; time (Minimum value)'
           type: string
         - in: query
@@ -2813,7 +2813,7 @@
         - in: query
           name: start(Pagingcondition)
           description: 'Paging condition : Of all the search results, starting number
-            of records returned as responses.minimum : 1default : 100*In case values
+            of records returned as responses.minimum : 1default : 100 In case values
             exceeding the total number of search results are specified, the normal response
             The number of contents = 0 shall be returned.'
           type: string
@@ -2834,7 +2834,7 @@
       post:
         summary: Uploading (With tags)
         description: Contents (Originals) are registered.Simultaneously with content
-          registration, album tags can be assigned.&nbsp;However, in case the album
+          registration, album tags can be assigned. However, in case the album
           tags have reached the upper limit of 1 user, album tags are not given.
         operationId: uploading-with-tags
         parameters:
@@ -2949,7 +2949,7 @@
           type: string
         - in: query
           name: result
-          description: 'Indicates success/failure of processing results.0 : Succeeded*Considered
+          description: 'Indicates success/failure of processing results.0 : Succeeded Considered
             succeeded when at least 1 files operation has been completed.'
           type: string
         - in: query
@@ -3020,7 +3020,7 @@
         - File
         security: []
     /gooLanguageAnalysis/v1/morph:
-      post&nbsp;:
+      post:
         summary: Morphological analysis
         description: If the Content-Type of application / x-www-form-urlencoded, specified
           in the request query parameters.
@@ -3073,7 +3073,7 @@
         - Language
         security: []
     /gooLanguageAnalysis/v1/similarity:
-      post&nbsp;:
+      post:
         summary: Word similarity calculation
         description: If the Content-Type of application / x-www-form-urlencoded, specified
           in the request query parameters.
@@ -3110,11 +3110,11 @@
         - Language
         security: []
     /imageRecognition/v1/auth/authAddress:
-      get&nbsp;:
+      get:
         summary: User authentication page acquisition
         description: To take advantage of the user category registration feature requires
-          the user token.&nbsp;To get the user token to authenticate users using Twitter
-          OAuth authentication of the (PIN number).&nbsp;This function retrieves the
+          the user token. To get the user token to authenticate users using Twitter
+          OAuth authentication of the (PIN number). This function retrieves the
           URL of the authentication page necessary for user authentication.
         operationId: user-authentication-page-acquisition
         parameters:
@@ -3142,11 +3142,11 @@
         - Image Recognition
         security: []
     /imageRecognition/v1/concept/classify/:
-      post&nbsp;:
+      post:
         summary: Category recognition
         description: The one that is reflected in the image, it is determined whether
           belong to any category in the specified model, and returns the score representing
-          the likelihood of the decision and the name of the category.&nbsp;When you
+          the likelihood of the decision and the name of the category. When you
           recognize the category of the subject, please be as large as possible shooting
           in front of the subject.
         operationId: category-recognition
@@ -3226,11 +3226,11 @@
         - Image Recognition
         security: []
     /imageRecognition/v1/feedback:
-      post&nbsp;:
+      post:
         summary: Feedback to the whole of the recognition result candidate
         description: For the result of image recognition, whether or not the recognition
-          result was reasonable, it does the feedback.&nbsp;Feedback on the list of
-          the returned candidate as a recognition result is possible.&nbsp;By get the
+          result was reasonable, it does the feedback. Feedback on the list of
+          the returned candidate as a recognition result is possible. By get the
           feedback, it will help to improve the quality and enhance the recognition
           engine.
         operationId: feedback-to-the-whole-of-the-recognition-result-candidate
@@ -3270,7 +3270,7 @@
         - Image Recognition
         security: []
     /imageRecognition/v1/feedbackInappropriate:
-      post&nbsp;:
+      post:
         summary: Feedback on incorrect recognition result
         description: With respect to various types of data to be returned as a result
           of the image recognition, it can be reported using this function if there
@@ -3318,12 +3318,12 @@
         - Image Recognition
         security: []
     /imageRecognition/v1/feedbackToCandidate:
-      post&nbsp;:
+      post:
         summary: Feedback for each candidate of the recognition result
         description: For the result of image recognition, whether or not the recognition
-          result was reasonable, it does the feedback.&nbsp;Feedback on the returned
-          candidate as a recognition result is possible.&nbsp;Feedback of interest,
-          not the entire candidate is an individual candidate.&nbsp;By get the feedback,
+          result was reasonable, it does the feedback. Feedback on the returned
+          candidate as a recognition result is possible. Feedback of interest,
+          not the entire candidate is an individual candidate. By get the feedback,
           it will help to improve the quality and enhance the recognition engine.
         operationId: feedback-for-each-candidate-of-the-recognition-result
         parameters:
@@ -3369,7 +3369,7 @@
         - Image Recognition
         security: []
     /imageRecognition/v1/feedbackWrongDescription:
-      post&nbsp;:
+      post:
         summary: Feedback to the described errors in the data
         description: You can report using this function when there is an error with
           respect to various types of data to be returned as a result of the image recognition.
@@ -3416,11 +3416,11 @@
         - Image Recognition
         security: []
     /imageRecognition/v1/recognize:
-      post&nbsp;:
+      post:
         summary: Image recognition
         description: Using an image recognition, to recognize the object moves to images
-          taken by the smart phone camera, and returns the information of the object.&nbsp;Please
-          use the image captured by the smart phone camera.&nbsp;When shooting, please
+          taken by the smart phone camera, and returns the information of the object. Please
+          use the image captured by the smart phone camera. When shooting, please
           be as large as possible shooting in front of the subject.
         operationId: image-recognition
         parameters:
@@ -3758,7 +3758,7 @@
         - Image Recognition
         security: []
     /imageRecognition/v1/userCategory/createDic:
-      post&nbsp;:
+      post:
         summary: Dictionary creation
         description: Create a dictionary from one or more of the data set.
         operationId: dictionary-creation
@@ -3876,9 +3876,9 @@
         - Image Recognition
         security: []
     /imageRecognition/v1/userCategory/createUserCategory:
-      post&nbsp;:
+      post:
         summary: Creating user category
-        description: Image recognition&nbsp;category required for the function (or later,
+        description: Image recognition category required for the function (or later,
           user category) to create a.
         operationId: creating-user-category
         parameters:
@@ -3919,7 +3919,7 @@
         - Image Recognition
         security: []
     /imageRecognition/v1/userCategory/creatingTmpImageDataSetStatus:
-      get&nbsp;:
+      get:
         summary: Confirmation data set creation status from the image storage area
         description: It gets the data set creation status from the image storage area.
         operationId: confirmation-data-set-creation-status-from-the-image-storage-area
@@ -3963,7 +3963,7 @@
         - Image Recognition
         security: []
     /imageRecognition/v1/userCategory/dataSet:
-      get&nbsp;:
+      get:
         summary: Data Set Details acquisition
         description: To get more information for the specified data set.
         operationId: data-set-details-acquisition
@@ -4004,7 +4004,7 @@
         - Image Recognition
         security: []
     /imageRecognition/v1/userCategory/deleteUserCategory:
-      post&nbsp;:
+      post:
         summary: User category Delete
         description: Delete the user category that you created.
         operationId: user-category-delete
@@ -4037,7 +4037,7 @@
         - Image Recognition
         security: []
     /imageRecognition/v1/userCategory/dictionaries:
-      get&nbsp;:
+      get:
         summary: Acquisition dictionary List
         description: It gets a dictionary list that you created.
         operationId: acquisition-dictionary-list
@@ -4067,7 +4067,7 @@
         - Image Recognition
         security: []
     /imageRecognition/v1/userCategory/tmpImages:
-      get&nbsp;:
+      get:
         summary: Acquiring an image and a label information registered in the image
           storage area
         description: To get a list of the image and label information of the image storage
@@ -4104,9 +4104,9 @@
         - Image Recognition
         security: []
     /imageRecognition/v1/userCategory/undeployDic:
-      post&nbsp;:
+      post:
         summary: Undeploying user category
-        description: Deploying categories of users&nbsp;and the user category to become
+        description: Deploying categories of users and the user category to become
           available from the feature unavailable.
         operationId: undeploying-user-category
         parameters:
@@ -4138,7 +4138,7 @@
         - Image Recognition
         security: []
     /imageRecognition/v1/userCategory/uploadingDataSetStatus:
-      get&nbsp;:
+      get:
         summary: Verification data set created situation from the image URL
         description: Make sure the data set creation situation from the image URL.
         operationId: verification-data-set-created-situation-from-the-image-url
@@ -4223,12 +4223,12 @@
         - Image Recognition
         security: []
     /motionEstimation/v1/recognize:
-      post&nbsp;:
+      post:
         summary: Motion estimation
         description: When you enter the acceleration sensor value, it is the API to
-          return to estimate the action that the user was doing.&nbsp;To use the smart
+          return to estimate the action that the user was doing. To use the smart
           phone and the wristband-type device and six types of behavior (still, walking,
-          running, bike, sleep, diet) can be estimated.&nbsp;Smartphone pants pocket,
+          running, bike, sleep, diet) can be estimated. Smartphone pants pocket,
           wristband-type device and attached to the dominant arm, can be estimated more
           accurately operate.
         operationId: motion-estimation
@@ -4387,7 +4387,7 @@
         - Motion Estimation
         security: []
     /nazukiSA/v1/analyze:
-      post&nbsp;:
+      post:
         summary: Semantic information extraction
         description: ""
         operationId: semantic-information-extraction
@@ -4538,9 +4538,9 @@
         - Text
         security: []
     /scenarioDialogue/v1/dialogue:
-      post&nbsp;:
+      post:
         summary: Scenario dialogue
-        description: '&nbsp;'
+        description:  ''
         operationId: scenario-dialogue
         parameters:
         - type: string
@@ -4605,9 +4605,9 @@
         - Scenario Dialogue
         security: []
     /scenarioDialogue/v1/registration:
-      post&nbsp;:
+      post:
         summary: User ID acquisition
-        description: '&nbsp;'
+        description:  ''
         operationId: user-id-acquisition
         parameters:
         - in: query
@@ -4635,7 +4635,7 @@
         - Scenario Dialogue
         security: []
     /truetext/v1/sensitivecheck:
-      post&nbsp;:
+      post:
         summary: Sensitive analysis
         description: ""
         operationId: sensitive-analysis
@@ -4781,7 +4781,7 @@
         - Text
         security: []
     /webCuration/v3/genre:
-      get&nbsp;:
+      get:
         summary: Acquisition of genre information
         description: It gets the article genre that are delivered on the server side.
         operationId: acquisition-of-genre-information
@@ -4825,9 +4825,9 @@
         - Text
         security: []
     /webCuration/v3/recommendReset:
-      get&nbsp;:
+      get:
         summary: Recommendation reset
-        description: To request the initialization of the recommendation.&nbsp;Again,
+        description: To request the initialization of the recommendation. Again,
           to carry out the recommendation requires the transmission of viewing the log
           in the View log send API.
         operationId: recommendation-reset
@@ -4853,7 +4853,7 @@
         - Text
         security: []
     /webCuration/v3/relatedContents:
-      get&nbsp;:
+      get:
         summary: Related Articles acquisition
         description: The specified articles and content to get the articles that are
           similar.
@@ -4941,10 +4941,10 @@
         - Text
         security: []
     /webCuration/v3/sendLog:
-      post&nbsp;:
+      post:
         summary: View log transmission
-        description: Send the view log of the acquired article.&nbsp;u203b about the
-          mechanism of recommendation&nbsp;here&nbsp;please see.
+        description: Send the view log of the acquired article. u203b about the
+          mechanism of recommendation here please see.
         operationId: view-log-transmission
         parameters:
         - type: string
