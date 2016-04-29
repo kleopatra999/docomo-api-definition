@@ -1,39 +1,37 @@
-name: Docomo API Stack
-description: ""
-image: ""
-x-open-ranking: ""
-tags:
-- Docomo API Stack
-created: "2016-04-29"
-modified: "2016-04-29"
-url: http://docomo.stack.networkapis.json
-specificationVersion: "0.14"
-apis:
-- name: Docomo API
+- name: Docomo API Stack
   description: ""
   image: ""
-  humanURL: ""
-  baseURL: ""
+  x-open-ranking: ""
   tags:
   - Docomo API Stack
-  properties:
-  - type: x-openapi-spec
-    url: api-commons/docomo-api-openapi-spec.json
-x-common:
-- type: x-getting-started
-  url: https://dev.smt.docomo.ne.jp/?p=about.index
-- type: x-landing-page
-  url: https://dev.smt.docomo.ne.jp/?p=common_page&p_name=collecting_api
-- type: x-privacy-policy-page
-  url: https://www.nttdocomo.co.jp/english/utility/privacy/
-- type: x-terms-of-service-page
-  url: https://dev.smt.docomo.ne.jp/?p=policy
-- type: x-portal
-  url: https://dev.smt.docomo.ne.jp/
-include:
-- name: Parent
+  created: "2016-04-29"
+  modified: "2016-04-29"
   url: http://docomo.stack.networkapis.json
-maintainers:
-- FN: Kin Lane
-  x-twitter: apievangelist
-  email: info@apievangelist.com
+  specificationVersion: "0.14"
+  apis:
+  - name: Docomo API
+    description: ""
+    image: ""
+    humanURL: ""
+    baseURL: ""
+    tags:
+    - Docomo API Stack
+    properties:
+    - type: x-openapi-spec
+      url: api-commons/docomo-api-openapi-spec.json
+  x-common:
+  - type: x-getting-started
+    url: https://dev.smt.docomo.ne.jp/?p=about.index
+  - type: x-landing-page
+    url: https://dev.smt.docomo.ne.jp/?p=common_page&p_name=collecting_api
+  - type: x-privacy-policy-page
+    url: https://www.nttdocomo.co.jp/english/utility/privacy/
+  - type: x-terms-of-service-page
+    url: https://dev.smt.docomo.ne.jp/?p=policy
+  - type: x-portal
+    url: https://dev.smt.docomo.ne.jp/
+  include: []
+  maintainers:
+  - FN: Kin Lane
+    x-twitter: apievangelist
+    email: info@apievangelist.com

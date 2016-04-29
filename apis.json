@@ -1,12 +1,12 @@
 {
 	"name": "Docomo API Stack",
-	"description": "",
+	"description": "This is a project to define the OpenAPI Spec for the Docomo API.",
 	"image": "",
 	"x-open-ranking": "",
 	"tags": ["Docomo API Stack"],
 	"created": "2016-04-29",
 	"modified": "2016-04-29",
-	"url": "http://docomo.stack.networkapis.json",
+	"url": "http://docomo.stack.network/",
 	"specificationVersion": "0.14",
 	"apis": [{
 		"name": "Docomo API",
