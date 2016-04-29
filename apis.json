@@ -1,6 +1,6 @@
 {
 	"name": "Docomo API Stack",
-	"description": "This is a project to define the OpenAPI Spec for the Docomo API.",
+	"description": "",
 	"image": "",
 	"x-open-ranking": "",
 	"tags": ["Docomo API Stack"],
@@ -42,7 +42,7 @@
 	}],
 	"include": [{
 		"name": "Parent",
-		"url": "http://docomo.stack.networkapis.json"
+		"url": "http://docomo.stack.network/apis.json"
 	}],
 	"maintainers": [{
 		"FN": "Kin Lane",
