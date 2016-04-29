@@ -18,6 +18,22 @@
 		"properties": []
 	}],
 	"x-common": [{
+		"type": "x-getting-started",
+		"url": "https://dev.smt.docomo.ne.jp/?p=about.index"
+	},
+	{
+		"type": "x-landing-page",
+		"url": "https://dev.smt.docomo.ne.jp/?p=common_page&p_name=collecting_api"
+	},
+	{
+		"type": "x-privacy-policy-page",
+		"url": "https://www.nttdocomo.co.jp/english/utility/privacy/"
+	},
+	{
+		"type": "x-terms-of-service-page",
+		"url": "https://dev.smt.docomo.ne.jp/?p=policy"
+	},
+	{
 		"type": "x-portal",
 		"url": "https://dev.smt.docomo.ne.jp/"
 	}],
