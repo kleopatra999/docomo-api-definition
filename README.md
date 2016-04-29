@@ -1,4 +1,4 @@
-# APIs.json Annotation
-This is a micro tool for annotating APIs. It used Github Issues, and the API to establish comment threads on each API endpoint.
+# Docomo API Definition
+This is a project to define an OpenAPI Spec for the Docomo API.
 
-You can view the site at: http://apis.json.annotation.apievangelist.com/
+You can view the site at: http://docomo.stack.network
