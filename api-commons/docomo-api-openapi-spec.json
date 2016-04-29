@@ -22,48 +22,48 @@
 				},
 				{
 					"in": "query",
-					"name": "Authorization",
+					"ame": "Authorization",
 					"description": "OAuth authentication scheme.SeeAPI Common Reference2.3 for details.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "data",
+					"ame": "data",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "err_cd",
+					"ame": "err_cd",
 					"description": "Always indicates 0 when successful.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Host",
+					"ame": "Host",
 					"description": "Specifies the Request Host.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "param_name",
+					"ame": "param_name",
 					"description": "Sets the physical item name of the request item when the location of the error can be identified by the request item.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "param_value",
+					"ame": "param_value",
 					"description": "Sets the value of the error item in which an error occurs when the location of the error can be identified by the request item.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "result",
+					"ame": "result",
 					"description": "Always indicates 0 when successful.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "User-Agent",
+					"ame": "User-Agent",
 					"description": "Specifies the User Agent identifier.",
 					"type": "string"
 				}],
@@ -122,54 +122,54 @@
 				},
 				{
 					"in": "query",
-					"name": "Authorization",
+					"ame": "Authorization",
 					"description": "OAuth authentication scheme.SeeAPI Common Reference2.3 for details.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Length",
+					"ame": "Content-Length",
 					"description": "Specifies the data size of the Request(In bytes).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "MIME type: One of the following 3:image\/jpeg : JPEG imageimage\/gif : GIF imageimage\/png : PNG image",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "data",
+					"ame": "data",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "err_cd",
+					"ame": "err_cd",
 					"description": "Always indicates 0 when successful.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Host",
+					"ame": "Host",
 					"description": "Specifies the Request Host.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "param_name",
+					"ame": "param_name",
 					"description": "Sets the physical item name of the request item when the location of the error can be identified by the request item.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "param_value",
+					"ame": "param_value",
 					"description": "Sets the value of the error item in which an error occurs when the location of the error can be identified by the request item.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "result",
+					"ame": "result",
 					"description": "Always indicates 0 when successful.",
 					"type": "string"
 				}],
@@ -228,37 +228,37 @@
 				"operationId": "jeita-cana",
 				"parameters": [{
 					"in": "query",
-					"name": "Accept",
+					"ame": "Accept",
 					"description": "MIME type of the received data, specify the following.audio \/ L16",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Audiodata",
+					"ame": "Audiodata",
 					"description": "As format of the following audio data.[Encoding]linear PCM[number of channels]1 (monaural)[sample frequency]16000[bit depth]16bit (big-endian)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Length",
+					"ame": "Content-Length",
 					"description": "It specifies the length of the request body (in byte).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "MIME type of the transmitted data, specify the following.text \/ x-jeita-6004- kana: JEITACanau203b 3",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "transfer-encoding",
+					"ame": "transfer-encoding",
 					"description": "Return the following.Chunked",
 					"type": "string"
 				}],
@@ -320,79 +320,79 @@
 				"operationId": "ssml",
 				"parameters": [{
 					"in": "query",
-					"name": "Date",
+					"ame": "Date",
 					"description": "Text indicating that a date.The letters, will depend on the format.format = y \/ m  \/ dcan be specified character, single-byte numbers only.format = ym \/ my  \/ md \/ dm \/ ymd \/ dmy \/ mdyPossible characters, half-width numbers and single-byte symbol \/ (shaded \/ slash) &middot;  - (minus \/ hyphen) only.Sample value) &lt;say-as interpret-as = date format = ymd&gt; 2012\/04\/05 &lt;\/ say-as&gt;",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Telephone",
+					"ame": "Telephone",
 					"description": "Text indicating that a telephone number.For possible character, single-byte numbers and byte symbols ( (left parenthesis) ) (right parenthesis), - (minus \/ hyphen) -  (space \/ blank) only.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Time",
+					"ame": "Time",
 					"description": "Indicating that text is time.The letters, will depend on the format.The [AMPM specified] here, it refers to the half-width of the am \/ pm \/ AM \/it to describe a string of PM at the beginning or end of the text.This is, am ( pm )and if it is specified, AMR (pm), AM ( PM )if it had been specified is the instructions read aloud as morning (afternoon). .format = h12can be specified character is, only and half the number AMPM specified.format = h \/ m  \/ scan be specified character, single-byte numbers only.format = hm \/ ms  \/ hmsPossible characters, half-width numbers and single-byte symbol : (colon), - only (minus \/ hyphen).format = hm12 \/ hms12 for possible character, single-byte numbers and single-byte symbol : (colon), - (minus \/ hyphen) and only AMPM specified.Sample value) &lt;say-as interpret-as = time format = hm12&gt; AM12: 34 &lt;\/ say-as&gt;",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Break",
+					"ame": "Break",
 					"description": "Pause or empty element to control the prosody of the boundaries between other tokens.The &lt;break&gt; element, can not be anything including.Sample value)yawing&lt;break time = 3000ms \/ &gt;Don",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "P",
+					"ame": "P",
 					"description": "Element representing a paragraph.Immediately before and after this element will be the end of a sentence treat.The &lt;p&gt; element, text and &lt;break&gt;, &lt;p&gt;, &lt;phoneme&gt;, &lt;prosody&gt;, &lt;say-as&gt;, &lt;sub&gt;, &lt;s&gt;, &lt;token&gt;, &lt;voice&gt;, &lt;w&gt;It may include only the elements.Sample value) &lt;p&gt; good morning &lt;\/ p&gt; &lt;p&gt; night &lt;\/ p&gt;",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Phoneme",
+					"ame": "Phoneme",
 					"description": "Elements that grant the pronunciation on the phoneme \/ pronunciation to the text.The &lt;phoneme&gt; element can contain only text.It may be empty.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Prosody",
+					"ame": "Prosody",
 					"description": "Audio output of the pitch (height), reading speed (speech speed), elements that perform, such as control of volume.The &lt;prosody&gt; element, text and &lt;break&gt;, &lt;p&gt;, &lt;phoneme&gt;, &lt;prosody&gt;, &lt;say-as&gt;, &lt;sub&gt;, &lt;s&gt;, &lt;token&gt;, &lt;voice&gt;, &lt;w&gt;It may include only the elements.Sample value)&lt;Prosody Rate = 0.8&gt;&lt;Prosody Pitch = 1.3&gt; er &lt;\/ Prosody&gt;&lt;Prosody Pitch = 1.4 Volume = 1.2&gt; only over over &lt;\/ Prosody&gt;&lt;Prosody Pitch = 1.5 volume = 0.6&gt; and over over &lt;\/ Prosody&gt;&lt;Prosody Pitch = 1.6 Volume = 1.1&gt; Su - over &lt;\/ Prosody&gt;&lt;\/ Prosody&gt;",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "S",
+					"ame": "S",
 					"description": "Element that represents a statement.Can not be inserted into the end of a sentence symbol is within the scope of this element, immediately before and after the element is the end of a sentence treat.The &lt;s&gt; element, text and &lt;break&gt;, &lt;phoneme&gt;, &lt;say-as&gt;, &lt;sub&gt;, &lt;token&gt;,can contain only elements of &lt;w&gt;.Sample value) &lt;s&gt; Hello &lt;\/ s&gt; &lt;s&gt; Goodbye &lt;\/ s&gt;",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Say-as",
+					"ame": "Say-as",
 					"description": "Element that shows information about the type of text constructs in the element.This element serves to specify the level of detail of the descriptive text can provide reading how tips.The &lt;say-as&gt; element may include only specific text.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Speak",
+					"ame": "Speak",
 					"description": "SSML root element.The &lt;speak&gt; element, text and &lt;break&gt;, &lt;p&gt;, &lt;phoneme&gt;, &lt;prosody&gt;, &lt;say-as&gt;, &lt;sub&gt;, &lt;s&gt;, &lt;token&gt;, &lt;voice&gt;, &lt;w&gt;It may include only the elements.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Sub",
+					"ame": "Sub",
 					"description": "Elements indicating that to be replaced the text to another text.This element can include a text description format, both text for speech.The &lt;sub&gt; element can contain only text.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Token",
+					"ame": "Token",
 					"description": "&lt;token The&gt; elements that represent the token.&lt;w&gt; element of &lt;token&gt; element alias.This element, indicates that this content is talk, it is possible to remove the ambiguity of the separator of token (word).The &lt;token The&gt; element can contain only text.Sample value) &lt;token&gt; Tokyo &lt;\/ token&gt; &lt;w&gt; patent &lt;\/ w&gt; &lt;w&gt; Allow &lt;\/ w&gt;",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Voice",
+					"ame": "Voice",
 					"description": "Element to request the change of text-to-speech.&lt;voice&gt; The elements, text and &lt;break&gt;, &lt;p&gt;, &lt;phoneme&gt;, &lt;prosody&gt;, &lt;say-as&gt;, &lt;sub&gt;, &lt;s&gt;, &lt;token&gt;, &lt;voice&gt;, &lt;w&gt;It may include only the elements.Sample value) &lt;voice name = nozomi &gt;Hello &lt;\/ voice&gt;",
 					"type": "string"
 				},
@@ -401,73 +401,73 @@
 				},
 				{
 					"in": "query",
-					"name": "Accept",
+					"ame": "Accept",
 					"description": "MIME type of the received data, specify one of the following.audio \/ L16: return the voice data (Binary).application \/ x-aitalk-kana: intermediate language (AI Kana)u203b 2return in a text.text \/ x-jeita-6004- kana: JEITAKanau203b 3return in a text.u203b For more information about the article in the intermediate language (AI Kana), hereinquiryPlease request a specification from.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Audiodata",
+					"ame": "Audiodata",
 					"description": "In the Accept request header, return if you specify the audio \/ L16.As format of the following audio data.[Encoding]linear PCM[number of channels]1 (monaural)[sample frequency]16000[bit depth]16bit (big-endian)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Length",
+					"ame": "Content-Length",
 					"description": "It specifies the length of the request body (in byte).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "MIME type of the transmitted data, specify the following.application \/ ssml + xml: Japanese SSML format",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "format",
+					"ame": "format",
 					"description": "Specify attribute the format of the specified content in the interpret-as.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Intermediatelanguage(AIKana)",
+					"ame": "Intermediatelanguage(AIKana)",
 					"description": "In the Accept request header, if you specify the application \/ x-aitalk-kana, return the intermediate language (AI Kana).u203b For more information about the article in the intermediate language (AI Kana), hereinquiryPlease request a specification from.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "JEITACana",
+					"ame": "JEITACana",
 					"description": "If you specify a text \/ x-jeita-6004-kana in the Accept request header, return the JEITA Cana.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "range",
+					"ame": "range",
 					"description": "Attributes that control the pitch range to read aloud the text.The reference value is 1.0, it can be specified in the range of 0.00 to 2.00 (can be specified point to the second place).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "rate",
+					"ame": "rate",
 					"description": "Attributes that control the rate at which read aloud the text.The reference value is 1.0, it can be specified in the range of 0.50 to 4.00 (can be specified point to the second place).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "transfer-encoding",
+					"ame": "transfer-encoding",
 					"description": "If you specify the audio \/ L16 in the Accept request header, return the following.Chunked",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "volume",
+					"ame": "volume",
 					"description": "Attributes that control the volume to read aloud the text.The reference value is 1.0, it can be specified in the range of 0.00 to 2.00 (can be specified point to the second place).",
 					"type": "string"
 				}],
@@ -487,37 +487,37 @@
 				"operationId": "divided-uploadingdivided-upload",
 				"parameters": [{
 					"in": "query",
-					"name": "Authorization",
+					"ame": "Authorization",
 					"description": "OAuth authentication scheme.Seespecificationu300cu5171u901au898fu5b9a 2u300d (Common Specifications 2).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "content-range",
+					"ame": "content-range",
 					"description": "Range of data to be sent (See RFC2616 for the format).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "if-match",
+					"ame": "if-match",
 					"description": "Value specified in X-kii-ckient-hash at issuance of Upload ID.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "X-kii-appid",
+					"ame": "X-kii-appid",
 					"description": "Fixed value DOCOMO",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "X-kii-appkey",
+					"ame": "X-kii-appkey",
 					"description": "Fixed value DOCOMO",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "{uploadID}",
+					"ame": "{uploadID}",
 					"description": "Upload IDs issued by the server.",
 					"type": "string"
 				}],
@@ -537,37 +537,37 @@
 				"operationId": "acquisition-of-used-capacity-of-storage",
 				"parameters": [{
 					"in": "query",
-					"name": "Authorization",
+					"ame": "Authorization",
 					"description": "OAuth authentication scheme.SeeAPI Common Reference2.3 for details.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "box_used",
+					"ame": "box_used",
 					"description": "Used capacity of data storage box (In bytes).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "capacity",
+					"ame": "capacity",
 					"description": "Contracted capacity (In bytes).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "application\/json is returned.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "other_used",
+					"ame": "other_used",
 					"description": "Used capacity of other services (In bytes).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "unused",
+					"ame": "unused",
 					"description": "Unused capacity (In bytes).",
 					"type": "string"
 				}],
@@ -590,79 +590,79 @@
 				},
 				{
 					"in": "query",
-					"name": "Authorization",
+					"ame": "Authorization",
 					"description": "OAuth authentication scheme.SeeAPI Common Reference2.3 for details.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "Specifies the application\/json.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "delete_reason_cd",
+					"ame": "delete_reason_cd",
 					"description": "Indicates reasons for deleting files\/folders.See u30b3u30fcu30c9u5b9au7fa9(Code definition) in thespecificationfor description of setting values.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "delete_status_cd",
+					"ame": "delete_status_cd",
 					"description": "Indicates deletion information of files\/folders.See u30b3u30fcu30c9u5b9au7fa9(Code definition) in thespecificationfor description of setting values.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "meta_info",
+					"ame": "meta_info",
 					"description": "Meta information.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "name",
+					"ame": "ame",
 					"description": "Full path of file or folder name.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "owner_ap_cd",
+					"ame": "owner_ap_cd",
 					"description": "Code to identify the AP that issued the IF.See u30b3u30fcu30c9u5b9au7fa9(Code definition) in thespecificationfor description of setting values.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "revision",
+					"ame": "revision",
 					"description": "Serial number managing update information(1uff5e2147483647).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "share_status_cd",
+					"ame": "share_status_cd",
 					"description": "Shared status type code.See u30b3u30fcu30c9u5b9au7fa9(Code definition) in thespecificationfor description of setting values.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "status_cd",
+					"ame": "status_cd",
 					"description": "Indicates status(Stored) of files\/folders.See u30b3u30fcu30c9u5b9au7fa9(Code definition) in thespecificationfor description of setting values.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "type_cd",
+					"ame": "type_cd",
 					"description": "Distinguishes files and folders.See u30b3u30fcu30c9u5b9au7fa9(Code definition) in thespecificationfor description of setting values.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "update_date",
+					"ame": "update_date",
 					"description": "Update date(yyyy\/mm\/dd hh:mm:ss Format).File: Date and time when new and update upload was completed. In case of copy-to files, date and time the copy was completed.Folder: Date and time when file folder creation was completed. In case of copy-to folders, date and time the copy was completed.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "{path}",
+					"ame": "{path}",
 					"description": "Assign path of folder which you make.Length limit is 159 words.Regardless of whether one-byte or two-byte, counted as one word.You have to describe absolute path from Data Storage BOX root by separating with \/.",
 					"type": "string"
 				}],
@@ -682,19 +682,19 @@
 				"operationId": "deletion-of-entire-data",
 				"parameters": [{
 					"in": "query",
-					"name": "Authorization",
+					"ame": "Authorization",
 					"description": "OAuth authentication scheme.SeeAPI Common Reference2.3 for details.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "owner_ap_cd",
+					"ame": "owner_ap_cd",
 					"description": "Code to identify the AP that issued the IF.See u30b3u30fcu30c9u5b9au7fa9(Code definition) in thespecificationfor description of setting values.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "target_owner_ap_cd",
+					"ame": "target_owner_ap_cd",
 					"description": "Assign request owner AP code.Identify delete target AP.00000000 is not allowed.",
 					"type": "string"
 				}],
@@ -717,121 +717,121 @@
 				},
 				{
 					"in": "query",
-					"name": "attribute_cd",
+					"ame": "attribute_cd",
 					"description": "Code to indicate file attributes corresponding to acquisition.See u30b3u30fcu30c9u5b9au7fa9(Code definition) in thespecificationfor description of setting values.In case omitted: Obtain all the information including deletion.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Authorization",
+					"ame": "Authorization",
 					"description": "OAuth authentication scheme.SeeAPI Common Reference2.3 for details.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "delete_reason_cd",
+					"ame": "delete_reason_cd",
 					"description": "Indicates reasons for deleting files\/folders.See u30b3u30fcu30c9u5b9au7fa9(Code definition) in thespecificationfor description of setting values.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "delete_status_cd",
+					"ame": "delete_status_cd",
 					"description": "Indicates deletion information of files\/folders.See u30b3u30fcu30c9u5b9au7fa9(Code definition) in thespecificationfor description of setting values.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "display_num",
+					"ame": "display_num",
 					"description": "Maximum number of returns(1uff5e9999).In case acquisition results exceed this value, they are considered errors.In case omitted: Returns all the corresponding resultsIn case specified: Returns the specified number of results",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "hash_value",
+					"ame": "hash_value",
 					"description": "Hash values of files (Hash function is MD5).Does not exist in case of folders.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "meta_info",
+					"ame": "meta_info",
 					"description": "Meta information.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "meta_info_list",
+					"ame": "meta_info_list",
 					"description": "List of meta information.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "move_date",
+					"ame": "move_date",
 					"description": "Final move update date and time(yyyy\/mm\/dd hh:mm:ss Format)Final date when the folders\/files under the specified folder moved.Null is set in case movement has not taken place.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "name",
+					"ame": "ame",
 					"description": "Full path of file or folder names.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "owner_ap_cd",
+					"ame": "owner_ap_cd",
 					"description": "Code to identify the AP that issued the IF.See u30b3u30fcu30c9u5b9au7fa9(Code definition) in thespecificationfor description of setting values.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "revision",
+					"ame": "revision",
 					"description": "Revision number corresponding to difference acquisition(1uff5e2147483647).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "rev_flg",
+					"ame": "rev_flg",
 					"description": "Flag to indicate whether subfolders are referenced.*The second layers and beyond also have recursive flags.See u30b3u30fcu30c9u5b9au7fa9(Code definition) in thespecificationfor description of setting values.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "share_status_cd",
+					"ame": "share_status_cd",
 					"description": "Shared status type code.See u30b3u30fcu30c9u5b9au7fa9(Code definition) in thespecificationfor description of setting values.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "size",
+					"ame": "size",
 					"description": "File size.Does not exist in case of folders.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "status_cd",
+					"ame": "status_cd",
 					"description": "Indicates status(Stored) of files\/folders.See u30b3u30fcu30c9u5b9au7fa9(Code definition) in thespecificationfor description of setting values.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "type_cd",
+					"ame": "type_cd",
 					"description": "Distinguishes files and folders.See u30b3u30fcu30c9u5b9au7fa9(Code definition) in thespecificationfor description of setting values.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "update_date",
+					"ame": "update_date",
 					"description": "Update date(yyyy\/mm\/dd hh:mm:ss Format).File: Date and time when new and update upload was completed. In case of copy-to files, date and time the copy was completed.Folder: Date and time when file folder creation was completed. In case of copy-to folders, date and time the copy was completed.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "validation_date",
+					"ame": "validation_date",
 					"description": "Validation date(yyyy\/mm\/dd hh:mm:ss Format).Corresponding date regarding checking of expiration of valid period.In case of no specification, validation date checking is not performed.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "{path}",
+					"ame": "{path}",
 					"description": "Assign target path of meta-information.Length limit is 159 words.Regardless of whether one-byte or two-byte, counted as one word.(You can assign absolute path from Data Storage BOX root path by separating with \/.)",
 					"type": "string"
 				}],
@@ -854,103 +854,103 @@
 				},
 				{
 					"in": "query",
-					"name": "Authorization",
+					"ame": "Authorization",
 					"description": "OAuth authentication scheme.SeeAPI Common Reference2.3 for details.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "Specifies the application\/json.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "delete_info_list",
+					"ame": "delete_info_list",
 					"description": "List of information to be deleted.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "delete_reason_cd",
+					"ame": "delete_reason_cd",
 					"description": "Indicates reasons for deleting files\/folders.See u30b3u30fcu30c9u5b9au7fa9(Code definition) in thespecificationfor description of setting values.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "delete_status_cd",
+					"ame": "delete_status_cd",
 					"description": "Indicates deletion information of files\/folders.See u30b3u30fcu30c9u5b9au7fa9(Code definition) in thespecificationfor description of setting values.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "hash_value",
+					"ame": "hash_value",
 					"description": "Hash values of files (Hash function is MD5).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "meta_info_list",
+					"ame": "meta_info_list",
 					"description": "List of meta information.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "meta_info_total",
+					"ame": "meta_info_total",
 					"description": "Total number of meta information specified with the request.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "name",
-					"description": "Names of files\/folders to be deleted(Full path).See u4f7fu7528u53efu80fdu6587u5b57u3001u4f7fu7528u7981u6b62u6587u5b57u306bu3064u3044u3066(Allowed characters, prohibited characters) in thespecificationfor details.",
+					"ame": "ame",
+					"description": "ames of files\/folders to be deleted(Full path).See u4f7fu7528u53efu80fdu6587u5b57u3001u4f7fu7528u7981u6b62u6587u5b57u306bu3064u3044u3066(Allowed characters, prohibited characters) in thespecificationfor details.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "owner_ap_cd",
+					"ame": "owner_ap_cd",
 					"description": "Code to identify the AP that issued the IF.See u30b3u30fcu30c9u5b9au7fa9(Code definition) in thespecificationfor description of setting values.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "revision",
+					"ame": "revision",
 					"description": "Revision number(1uff5e2147483647).Not specified: Delete without checking the revision.Specified: Delete by checking the revision.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "share_status_cd",
+					"ame": "share_status_cd",
 					"description": "Shared status type code.See u30b3u30fcu30c9u5b9au7fa9(Code definition) in thespecificationfor description of setting values.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "size",
+					"ame": "size",
 					"description": "File size.Does not exist in case of folders.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "status_cd",
+					"ame": "status_cd",
 					"description": "Indicates status(Stored) of files\/folders.See u30b3u30fcu30c9u5b9au7fa9(Code definition) in thespecificationfor description of setting values.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "type_cd",
+					"ame": "type_cd",
 					"description": "Distinguishes files and folders.See u30b3u30fcu30c9u5b9au7fa9(Code definition) in thespecificationfor description of setting values.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "update_date",
+					"ame": "update_date",
 					"description": "Update date(yyyy\/mm\/dd hh:mm:ss Format).File: Date and time when new and update upload was completed. In case of copy-to files, date and time the copy was completed.Folder: Date and time when file folder creation was completed. In case of copy-to folders, date and time the copy was completed.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "{path}",
+					"ame": "{path}",
 					"description": "Assign path of which it is deleted to parent folder.Length limit is 159 words.Regardless of whether one-byte or two-byte, counted as one word.You have to describe absolute path from Data Storage BOX root by separating with \/.",
 					"type": "string"
 				}],
@@ -971,97 +971,97 @@
 				},
 				{
 					"in": "query",
-					"name": "Authorization",
+					"ame": "Authorization",
 					"description": "OAuth authentication scheme.SeeAPI Common Reference2.3 for details.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "Specifies the application\/octet-stream.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "delete_reason_cd",
+					"ame": "delete_reason_cd",
 					"description": "Indicates reasons for deleting files\/folders.See u30b3u30fcu30c9u5b9au7fa9(Code definition) in thespecificationfor description of setting values.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "delete_status_cd",
+					"ame": "delete_status_cd",
 					"description": "Indicates deletion information of files\/folders.See u30b3u30fcu30c9u5b9au7fa9(Code definition) in thespecificationfor description of setting values.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "division_no",
+					"ame": "division_no",
 					"description": "Division number(1uff5e2147483647).First time: Return values ofpreparation for uploading(Division ID).From second time: Last set value +1",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "hash_value",
+					"ame": "hash_value",
 					"description": "Hash values of files (Hash function is MD5).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "meta_info",
+					"ame": "meta_info",
 					"description": "Meta information.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "name",
+					"ame": "ame",
 					"description": "Full path of file or folder names.Renamed in case HTTP status is 201.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "owner_ap_cd",
+					"ame": "owner_ap_cd",
 					"description": "Code to identify the AP that issued the IF.See u30b3u30fcu30c9u5b9au7fa9(Code definition) in thespecificationfor description of setting values.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "revision",
+					"ame": "revision",
 					"description": "Revision number(1uff5e2147483647).At new uploading: Not specified.At uploading updates: Specified.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "share_status_cd",
+					"ame": "share_status_cd",
 					"description": "Shared status type code.See u30b3u30fcu30c9u5b9au7fa9(Code definition) in thespecificationfor description of setting values.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "size",
+					"ame": "size",
 					"description": "File size.Does not exist in case of folders.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "status_cd",
+					"ame": "status_cd",
 					"description": "Indicates status(Stored) of files\/folders.See u30b3u30fcu30c9u5b9au7fa9(Code definition) in thespecificationfor description of setting values.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "type_cd",
+					"ame": "type_cd",
 					"description": "Distinguishes files and folders.See u30b3u30fcu30c9u5b9au7fa9(Code definition) in thespecificationfor description of setting values.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "update_date",
+					"ame": "update_date",
 					"description": "Update date(yyyy\/mm\/dd hh:mm:ss Format).File: Date and time when new and update upload was completed. In case of copy-to files, date and time the copy was completed.Folder: Date and time when file folder creation was completed. In case of copy-to folders, date and time the copy was completed.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "{path}",
+					"ame": "{path}",
 					"description": "Assign target upload file path.Length limit is 159 words.Regardless of whether one-byte or two-byte, counted as one word.(Describe absolute path from Data Storage BOX root path by separating with \/.)",
 					"type": "string"
 				}],
@@ -1084,49 +1084,49 @@
 				},
 				{
 					"in": "query",
-					"name": "@Queue-time",
+					"ame": "@Queue-time",
 					"description": "Reception time of the request (yyyy \/ mm \/ dd hh: mm: ssformat).Sample value) 2013\/10\/22 13:11:25",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "@status",
+					"ame": "@status",
 					"description": "The current state of the recognition jobs, return any of the following.Request acceptance already: queuerecognition processing in: processtreatment success: successtreatment failure: failureDeleted: deleted",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "MIME type of the transmitted data, specify the following.multipart \/ form-data",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "image",
+					"ame": "image",
 					"description": "Image to be used in the character recognition is valid only satisfies the following conditions image.&middot; JPEG or image data of PNG format (transparent PNG is excluded), width and height of 4096 pixels within-recommended character size vertical and horizontal size 32 pixels or more",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "job",
+					"ame": "job",
 					"description": "Recognition job.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "lang",
+					"ame": "lang",
 					"description": "Recognize language, specify one of the following.jpn (default)eng",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "message",
+					"ame": "message",
 					"description": "message.",
 					"type": "string"
 				}],
@@ -1146,36 +1146,36 @@
 				"operationId": "mac-address-registration",
 				"parameters": [{
 					"in": "query",
-					"name": "500-505",
+					"ame": "500-505",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "MIME type of the transmitted data, specify the followingapplication \/ json",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "data",
+					"ame": "data",
 					"description": "Response dataResponse of JSON (store information in the child element)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "macaddress",
+					"ame": "macaddress",
 					"description": "MAC address of COCOROBOto specify the MAC address of COCOROBO.u203b No hyphen 12-digit number or AF (lowercase s)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "resultCode",
+					"ame": "resultCode",
 					"description": "Result codeis the result code value 0",
 					"type": "string"
 				}],
@@ -1210,31 +1210,31 @@
 				"operationId": "voice-utterance",
 				"parameters": [{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "MIME type of the transmitted data, specify the followingapplication \/ json",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "data",
+					"ame": "data",
 					"description": "Response dataResponse of JSON (child element is null)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "message",
+					"ame": "message",
 					"description": "Messagemessage content to speech (up to 255 characters)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "resultCode",
+					"ame": "resultCode",
 					"description": "Result codeis the result code value 0",
 					"type": "string"
 				}],
@@ -1272,79 +1272,79 @@
 				"operationId": "kanji-and-kana-sentence",
 				"parameters": [{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "AudioFileFormat",
+					"ame": "AudioFileFormat",
 					"description": "Audio file format, specify one of the following.0: AAC, 22,050Hz (default)1: Ogg Vorbis, 22,050Hz2: 16Bit LinearPCM Wave, 22,050Hz3: 8Bit Myu-Law, 8,000Hz",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Command",
+					"ame": "Command",
 					"description": "Commands utilized by the API, specifies the following.AP_Synth",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "MIME type of the transmitted data, specify the following.application \/ json: JSON format",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "PowerRate",
+					"ame": "PowerRate",
 					"description": "Specifies the volume (can be specified point to the second place).(Small) from 0.00 to 5.00 (large)Default: 1.00",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "SpeakerID",
+					"ame": "SpeakerID",
 					"description": "Speaker, specify one of the following.1: Aoi (energetic older sister)2: Sakura (husky older sister)3: Yui (woman)4: Hazuki (calm and woman)5: Kumiko (Aunt)6: Hana (grandmother)7: Airi (girl)8: Himari (maid)9: Tsuyoshi (healing and teeth-based older brother)10: Keisuke (brother of informal)11: Kazuhiro (male)12: Shiro (Uncle)13: Shinichi (boy)14: Tatsuya (Butler)15: Hitoshi (man of mystery)u203bInstitute of informationIf you have not registered the will, 1 and 14 only available.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "SpeechRate",
+					"ame": "SpeechRate",
 					"description": "Specify the speech speed (can be specified point to the second place).(Slow) from 0.50 to 10.00 (fast)Default: 1.00",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "StyleID",
+					"ame": "StyleID",
 					"description": "Tone is, specify one of the following.1: Aoi (energetic older sister)2: Sakura (husky older sister)3: Yui (woman)4: Hazuki (calm and woman)5: Kumiko (Aunt)6: Hana (grandmother)7: Airi (girl)8: Himari (maid)9: Tsuyoshi (healing and teeth-based older brother)10: Keisuke (brother of informal)11: Kazuhiro (male)12: Shiro (Uncle)13: Shinichi (boy)14: Tatsuya (Butler)15: Hitoshi (man of mystery)u203bInstitute of informationIf you have not registered the will, 1 and 14 only available.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "TextData",
+					"ame": "TextData",
 					"description": "Text format of speech synthesis target, specify the kanji and kana statement.Sample value) is a speech by the speech synthesis engine of NTT.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "VoiceType",
+					"ame": "VoiceType",
 					"description": "Voice quality is, specify one of the following.(Thick) from 0.50 to 2.00 (thin)Default: 1.00",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "X-Content-Length",
+					"ame": "X-Content-Length",
 					"description": "The size of the audio data is returned (in a byte).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "X-ProtocolVersion",
+					"ame": "X-ProtocolVersion",
 					"description": "Version of the protocol.Sample value) d-1.0.0",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "X-ResponseCode",
+					"ame": "X-ResponseCode",
 					"description": "Responsive code, any of the following is returned.200 OK: normal200 OK except: Abnormalu203b except 200 OK, following response code detailsee.",
 					"type": "string"
 				}],
@@ -1352,7 +1352,7 @@
 					"OK": {
 						"description": "Command is completed successfully processed. - Command is completed successfully processed."
 					},
-					"NG": {
+					"G": {
 						"description": "To command, it can not be successfully processed. - To command, it can not be successfully processed."
 					},
 					"Command Not Supported": {
@@ -1457,176 +1457,176 @@
 				},
 				{
 					"in": "query",
-					"name": "-Five",
+					"ame": "-Five",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "AudioFileFormat",
+					"ame": "AudioFileFormat",
 					"description": "Audio file format, specify one of the following.0: AAC, 22,050Hz (default)1: Ogg Vorbis, 22,050Hz2: 16Bit LinearPCM Wave, 22,050Hz3: 8Bit Myu-Law, 8,000Hz",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "code",
+					"ame": "code",
 					"description": "Code listrefer to the",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Command",
+					"ame": "Command",
 					"description": "Commands utilized by the API, specifies the following.AP_Synth",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "confidence",
+					"ame": "confidence",
 					"description": "The reliability of the result of the morphological analysis",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "MIME type of the transmitted data, specify the following.application \/ json: JSON format",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "endtime",
+					"ame": "endtime",
 					"description": "Utterance end time",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "message",
+					"ame": "message",
 					"description": "Content at the time of the error",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Novalue",
+					"ame": "ovalue",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "One",
+					"ame": "One",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Otherstring",
+					"ame": "Otherstring",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "PowerRate",
+					"ame": "PowerRate",
 					"description": "Specifies the volume (can be specified point to the second place).(Small) from 0.00 to 5.00 (large)Default: 1.00",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "results",
+					"ame": "results",
 					"description": "Array of speech recognition results",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "rulename",
+					"ame": "rulename",
 					"description": "Speech recognition dictionary name",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "SpeakerID",
+					"ame": "SpeakerID",
 					"description": "Speaker, specify one of the following.1: Aoi (energetic older sister)2: Sakura (husky older sister)3: Yui (woman)4: Hazuki (calm and woman)5: Kumiko (Aunt)6: Hana (grandmother)7: Airi (girl)8: Himari (maid)9: Tsuyoshi (healing and teeth-based older brother)10: Keisuke (brother of informal)11: Kazuhiro (male)12: Shiro (Uncle)13: Shinichi (boy)14: Tatsuya (Butler)15: Hitoshi (man of mystery)u203bInstitute of informationIf you have not registered the will, 1 and 14 only available.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "SpeechRate",
+					"ame": "SpeechRate",
 					"description": "Specify the speech speed (can be specified point to the second place).(Slow) from 0.50 to 10.00 (fast)Default: 1.00",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "spoken",
+					"ame": "spoken",
 					"description": "Of morphological analysis results reading",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "starttime",
+					"ame": "starttime",
 					"description": "Utterance start time",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "StyleID",
+					"ame": "StyleID",
 					"description": "Tone is, specify one of the following.1: Aoi (energetic older sister)2: Sakura (husky older sister)3: Yui (woman)4: Hazuki (calm and woman)5: Kumiko (Aunt)6: Hana (grandmother)7: Airi (girl)8: Himari (maid)9: Tsuyoshi (healing and teeth-based older brother)10: Keisuke (brother of informal)11: Kazuhiro (male)12: Shiro (Uncle)13: Shinichi (boy)14: Tatsuya (Butler)15: Hitoshi (man of mystery)u203bInstitute of informationIf you have not registered the will, 1 and 14 only available.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "tags",
+					"ame": "tags",
 					"description": "unused",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "text",
+					"ame": "text",
 					"description": "Speech recognition result string",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "TextData",
+					"ame": "TextData",
 					"description": "Text format of speech synthesis target, specify the Kana accent statement.Sample value) NTT tea Tino [\/ 05] Onse over Go save engine two [* 09] night [\/ 00] Onsedesu ^ [. 01]u203b For Kana accent statement specification,API specificationsee.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "tokens",
+					"ame": "tokens",
 					"description": "The recognition result text of morpheme array of",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Two",
+					"ame": "Two",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "utteranceid",
+					"ame": "utteranceid",
 					"description": "Utterance ID that server issues",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "VoiceType",
+					"ame": "VoiceType",
 					"description": "Voice quality is, specify one of the following.(Thick) from 0.50 to 2.00 (thin)Default: 1.00",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "X-Content-Length",
+					"ame": "X-Content-Length",
 					"description": "The size of the audio data is returned (in a byte).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "X-ProtocolVersion",
+					"ame": "X-ProtocolVersion",
 					"description": "Version of the protocol.Sample value) d-1.0.0",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "X-ResponseCode",
+					"ame": "X-ResponseCode",
 					"description": "Responsive code, any of the following is returned.200 OK: normal200 OK except: Abnormalu203b except 200 OK, following response code detailsee.",
 					"type": "string"
 				}],
@@ -1634,7 +1634,7 @@
 					"OK": {
 						"description": "Command is completed successfully processed. - Command is completed successfully processed."
 					},
-					"NG": {
+					"G": {
 						"description": "To command, it can not be successfully processed. - To command, it can not be successfully processed."
 					},
 					"Command Not Supported": {
@@ -1737,221 +1737,221 @@
 				"operationId": "chat-dialogue",
 				"parameters": [{
 					"in": "query",
-					"name": "age",
+					"ame": "age",
 					"description": "Specify the age of the user (a positive integer (up to 3 characters))sample value) 16",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Aikawa",
+					"ame": "Aikawa",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Aomori",
+					"ame": "Aomori",
 					"description": "Fukaura",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "birthdateD",
+					"ame": "birthdateD",
 					"description": "Specify the users birth date (day) (one of the integer from 1 to 31)sample values) 30",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "birthdateM",
+					"ame": "birthdateM",
 					"description": "Specify the users birth date (month) (any integer from 1 to 12)sample value) 5",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "birthdateY",
+					"ame": "birthdateY",
 					"description": "Users birthday (year) the designation (1 to any integer up to now (up to 4 characters))sample value) 1997",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "bloodtype",
+					"ame": "bloodtype",
 					"description": "Blood type of user, specify one of the followingA, B, AB, O",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "constellations",
+					"ame": "constellations",
 					"description": "Constellation of the user, specify one of the followingAries, Taurus, Gemini, Cancer, Leo, Virgo, Libra, Scorpio, Sagittarius, Capricorn, Aquarius, Pisces",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "MIME type of the transmitted data, specify the followingapplication \/ json",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "context",
+					"ame": "context",
 					"description": "Specifies the context ID (255 characters or less)sample value) aaabbbccc111222333If you want to continue the conversation u203b (shiritori) specifies the value of the context of the response body",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Fukuoka",
+					"ame": "Fukuoka",
 					"description": "Iizuka",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Ichinoseki",
+					"ame": "Ichinoseki",
 					"description": "Ofunato",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "mode",
+					"ame": "mode",
 					"description": "Mode of dialogue, specify one of the followingdialog (default)SrtrIf you want to continue the conversation u203b (shiritori) specifies the value of the mode of response body",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Much",
+					"ame": "Much",
 					"description": "Hita",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Nagano",
+					"ame": "agano",
 					"description": "Suwa",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Nagoya",
+					"ame": "agoya",
 					"description": "Fukui",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Naha",
+					"ame": "aha",
 					"description": "Kumejima",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "nickname",
+					"ame": "ickname",
 					"description": "Specify the nickname of the user (10 full-width characters (up to 10 characters) or less)sample values) light",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "nickname_y",
+					"ame": "ickname_y",
 					"description": "Specify the reading of the users nickname (40 characters or less (Katakana only))sample value) Hikari",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Niihama",
+					"ame": "iihama",
 					"description": "Kochi",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Nobeoka",
+					"ame": "obeoka",
 					"description": "Takachiho",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Oshima",
+					"ame": "Oshima",
 					"description": "Chichijima",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Otsu",
+					"ame": "Otsu",
 					"description": "Tsu",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "overseas",
+					"ame": "overseas",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "place",
+					"ame": "place",
 					"description": "Local information of the user,location listspecify any of those included in thesample value) Tokyo",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "sex",
+					"ame": "sex",
 					"description": "User of gender, specify one of the followingman, woman",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Shiraishi",
+					"ame": "Shiraishi",
 					"description": "Koriyama",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Shizuoka",
+					"ame": "Shizuoka",
 					"description": "Irozaki",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Shobara",
+					"ame": "Shobara",
 					"description": "Yamaguchi",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Tottori",
+					"ame": "Tottori",
 					"description": "Okayama",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Urakawa",
+					"ame": "Urakawa",
 					"description": "Iwamizawa",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Utsunomiya",
+					"ame": "Utsunomiya",
 					"description": "Mito",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "utt",
+					"ame": "utt",
 					"description": "Specify the utterance of the user (255 characters or less)sample value) Hello",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Wakayama",
+					"ame": "Wakayama",
 					"description": "Osaka",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Wakkanai",
+					"ame": "Wakkanai",
 					"description": "Rumoi",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "yomi",
+					"ame": "yomi",
 					"description": "Return the likely wrong reading aloud kanji and katakanathe same content as the utt for general wordsample value) Hello Hikaris",
 					"type": "string"
 				}],
@@ -1959,7 +1959,7 @@
 					"OK": {
 						"description": "Command is completed successfully processed. - Command is completed successfully processed."
 					},
-					"NG": {
+					"G": {
 						"description": "To command, it can not be successfully processed. - To command, it can not be successfully processed."
 					},
 					"Command Not Supported": {
@@ -2066,29 +2066,29 @@
 		"\/ekispertCorp\/v1\/courseCreate": {
 			"get": {
 				"summary": "Generation of route",
-				"description": "nTrain timetable is the path generation function using the results of. Station, train, date, by setting the time correctly, you can generate any of the route.nThe information required to generate a route there is something like the following,n &lt;A Requested Procedure Eki&gt; (date when the Requested Procedure)? [Train]? (To the time) &lt;to the Eki&gt;nYou specify these as follows.n viaList = departure station: arrival station &amp; fixedTrainList = train &amp; fixedTimeList = departure time: arrival time &amp; fixedDateList = departure date (service day)nFor station code and station namenYou can use the station code or station name as the data that identifies the station, but if you want to use as a premise to save is recommended to station code. Station name might be changed in the station name was renamed, etc., but brute string to the station name, station code is a constant regardless of the change of station name.n",
+				"description": "Train timetable is the path generation function using the results of. Station, train, date, by setting the time correctly, you can generate any of the route.nThe information required to generate a route there is something like the following,n &lt;A Requested Procedure Eki&gt; (date when the Requested Procedure)? [Train]? (To the time) &lt;to the Eki&gt;nYou specify these as follows.n viaList = departure station: arrival station &amp; fixedTrainList = train &amp; fixedTimeList = departure time: arrival time &amp; fixedDateList = departure date (service day)nFor station code and station namenYou can use the station code or station name as the data that identifies the station, but if you want to use as a premise to save is recommended to station code. Station name might be changed in the station name was renamed, etc., but brute string to the station name, station code is a constant regardless of the change of station name.n",
 				"operationId": "generation-of-route",
 				"parameters": [{
 					"in": "query",
-					"name": "fixedDateList",
+					"ame": "fixedDateList",
 					"description": "Trains run day (YYYYMMDD)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "fixedTimeList",
+					"ame": "fixedTimeList",
 					"description": "Train arrival and departure time (HHMM) (multiple specified)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "fixedTrainList",
+					"ame": "fixedTrainList",
 					"description": "Train timetableLineCode that can be obtained from the (multiple specified)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "viaList",
+					"ame": "viaList",
 					"description": "Station code or a list of the station name (multiple specified)",
 					"type": "string"
 				}],
@@ -2096,7 +2096,7 @@
 					"OK": {
 						"description": "Command is completed successfully processed. - Command is completed successfully processed."
 					},
-					"NG": {
+					"G": {
 						"description": "To command, it can not be successfully processed. - To command, it can not be successfully processed."
 					},
 					"Command Not Supported": {
@@ -2206,47 +2206,47 @@
 		"\/ekispertCorp\/v1\/courseRepayment": {
 			"get": {
 				"summary": "Refund calculation of season ticket",
-				"description": "nObtain multiple combinations of commuter pass which is the basis of the refund calculationnFor station code and station namenYou can use the station code or station name as the data that identifies the station, but if you want to use as a premise to save is recommended to station code. Station name might be changed in the station name was renamed, etc., but brute string to the station name, station code is a constant regardless of the change of station name.n",
+				"description": "Obtain multiple combinations of commuter pass which is the basis of the refund calculationnFor station code and station namenYou can use the station code or station name as the data that identifies the station, but if you want to use as a premise to save is recommended to station code. Station name might be changed in the station name was renamed, etc., but brute string to the station name, station code is a constant regardless of the change of station name.n",
 				"operationId": "refund-calculation-of-season-ticket",
 				"parameters": [{
 					"in": "query",
-					"name": "buydat to",
+					"ame": "buydat to",
 					"description": "Season ticket purchase date (YYYYMMDD) (optional. The default is the effective start date the same day treatment)",
 					"type": "int"
 				},
 				{
 					"in": "query",
-					"name": "changeSection",
+					"ame": "changeSection",
 					"description": "Or not to apply a formula of the time interval changes to the refund.Apply: true, does not apply: false (. Optional default does not apply)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "repaymentDate",
+					"ame": "repaymentDate",
 					"description": "Season ticket refund Date (YYYYMMDD) (optional. The default is now become the date)",
 					"type": "int"
 				},
 				{
 					"in": "query",
-					"name": "separator",
+					"ame": "separator",
 					"description": "Section split (multiple designation possible. Optional. The default is not divided)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "serializeData",
+					"ame": "serializeData",
 					"description": "Route serialized data",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "startDate",
+					"ame": "startDate",
 					"description": "Season ticket valid start date (YYYYMMDD) (optional. The default is now become the date)",
 					"type": "int"
 				},
 				{
 					"in": "query",
-					"name": "validityPeriod",
+					"ame": "validityPeriod",
 					"description": "Season ticket validity period.The possible values u200bu200bare 1, 3, 6 (months) (optional. The default will be 6 months)",
 					"type": "int"
 				}],
@@ -2262,11 +2262,11 @@
 		"\/ekispertCorp\/v1\/courseTimetableTrain": {
 			"get": {
 				"summary": "Interval timetable train information of",
-				"description": "nInterval timetable to get the train information in the datanFor station code and station namenYou can use the station code or station name as the data that identifies the station, but if you want to use as a premise to save is recommended to station code. Station name might be changed in the station name was renamed, etc., but brute string to the station name, station code is a constant regardless of the change of station name.n",
+				"description": "Interval timetable to get the train information in the datanFor station code and station namenYou can use the station code or station name as the data that identifies the station, but if you want to use as a premise to save is recommended to station code. Station name might be changed in the station name was renamed, etc., but brute string to the station name, station code is a constant regardless of the change of station name.n",
 				"operationId": "interval-timetablenbsptrain-information-of",
 				"parameters": [{
 					"in": "query",
-					"name": "code",
+					"ame": "code",
 					"description": "Code to identify the train, etc.",
 					"type": "string"
 				}],
@@ -2282,14 +2282,14 @@
 		"\/ekispertCorp\/v1\/dataversion": {
 			"get": {
 				"summary": "Data version",
-				"description": "nTo get more information on the data after the station span",
+				"description": "To get more information on the data after the station span",
 				"operationId": "data-version",
 				"parameters": [{
 					"type": "apiversion"
 				},
 				{
 					"in": "query",
-					"name": "ResultSet",
+					"ame": "ResultSet",
 					"type": "the root element"
 				}],
 				"responses": {
@@ -2304,119 +2304,119 @@
 		"\/ekispertCorp\/v1\/searchCourseExtreme": {
 			"get": {
 				"summary": "Road Exploration",
-				"description": "nBetween the specified station or point, and search for a route using public transportation. Search by the average waiting time and, search by the diamond (departure time search, etc.) can be done.nSearch by the average waiting timenTaking into account the average waiting time of the train you do a search for a route. The average waiting time is, thats flying has been set in about 20 minutes, even if there is only one flight per day, it does not match the actual waiting time. In addition, with regard to the comprehensive coverage that operate by day of the week, we try to search for a route to ignore the departure date.nInter u30a4 Yakult ni yo ru Exploration (Requested Procedure time to explore, the time to explore, and finally electrical exploration, beginning to explore Requested Procedure)nFrom diamond timetable,nnDeparture time search, early arrival and late departure routenRoute arrival time search is to arrive early and late departurenRoute last train search, to arrive at the final diamond of departure \/ arrival date (until the next day at 3 am)nRoute first train search, to the earliest arriving starting to departure \/ arrival datennIt will search each.nResult route may not exist as (have to suppress the use of the airplane in the search to the airport, the route can not be created in a fixed route, etc.), an empty result is returned instead of the error.nFor station code and station namenYou can use the station code or station name as the data that identifies the station, but if you want to use as a premise to save is recommended to station code. Station name might be changed in the station name was renamed, etc., but brute string to the station name, station code is a constant regardless of the change of station name.n",
+				"description": "Between the specified station or point, and search for a route using public transportation. Search by the average waiting time and, search by the diamond (departure time search, etc.) can be done.nSearch by the average waiting timenTaking into account the average waiting time of the train you do a search for a route. The average waiting time is, thats flying has been set in about 20 minutes, even if there is only one flight per day, it does not match the actual waiting time. In addition, with regard to the comprehensive coverage that operate by day of the week, we try to search for a route to ignore the departure date.nInter u30a4 Yakult ni yo ru Exploration (Requested Procedure time to explore, the time to explore, and finally electrical exploration, beginning to explore Requested Procedure)nFrom diamond timetable,nnDeparture time search, early arrival and late departure routenRoute arrival time search is to arrive early and late departurenRoute last train search, to arrive at the final diamond of departure \/ arrival date (until the next day at 3 am)nRoute first train search, to the earliest arriving starting to departure \/ arrival datennIt will search each.nResult route may not exist as (have to suppress the use of the airplane in the search to the airport, the route can not be created in a fixed route, etc.), an empty result is returned instead of the error.nFor station code and station namenYou can use the station code or station name as the data that identifies the station, but if you want to use as a premise to save is recommended to station code. Station name might be changed in the station name was renamed, etc., but brute string to the station name, station code is a constant regardless of the change of station name.n",
 				"operationId": "-road-exploration",
 				"parameters": [{
 					"in": "query",
-					"name": "answerCount",
+					"ame": "answerCount",
 					"description": "The maximum number of responses.Up to 20 (optional. The default will be 5)",
 					"type": "int"
 				},
 				{
 					"in": "query",
-					"name": "assignDetailRoute",
+					"ame": "assignDetailRoute",
 					"description": "Periodic allocation for detailed route string.Station name: route name: Direction: station name ... list (Optional .assignRoute exclusive)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "assignNikukanteikiIndex",
+					"ame": "assignNikukanteikiIndex",
 					"description": "If a regular assignment for the path of the second section regularly, to specify the index of PassStatus representing the state.(Multiple specifications are allowed. If the index of the same period is specified to specify more than one time will apply any one. Optional. The default is regularly assigned route becomes a regular periodic)",
 					"type": "int"
 				},
 				{
 					"in": "query",
-					"name": "assignRoute",
+					"ame": "assignRoute",
 					"description": "Regular allocation for the path string.Station name: route name: station name ... list (Optional .assignDetailRoute exclusive)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "cause the sign element error",
+					"ame": "cause the sign element error",
 					"description": "An error in the case of assignment error (optional. The default is not to generate false (allocation error))",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "conditionDetail",
+					"ame": "conditionDetail",
 					"description": "More search condition data.Search condition generationcan be obtained from the (optional. The default is the default condition)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "corporationBind",
+					"ame": "corporationBind",
 					"description": "Fixed company name.Only the specified company will use (multiple designation possible. Up to 10. Optional. The default will be unlimited normal search)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "coupon",
+					"ame": "coupon",
 					"description": "Assignmenttickets detailname (optional)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "date",
+					"ame": "date",
 					"description": "Search date (YYYYMMDD) (optional. The default is now become the date)",
 					"type": "int"
 				},
 				{
 					"in": "query",
-					"name": "fixedRailDirectionList",
+					"ame": "fixedRailDirectionList",
 					"description": "Direction list of fixed routes.searchType = plain, fixedRailList specified only when enabled (optional. The default will automatically determine the direction)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "fixedRailList",
+					"ame": "fixedRailList",
 					"description": "The name list of the fixed route.searchType = plain specified only when enabled (optional. The default is not to secure the route)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "interruptCorporationList",
+					"ame": "interruptCorporationList",
 					"description": "Impassable company list.Find the route that does not use the specified company.(SearchType:.. In the case of plain only effective Optional default will be unlimited normal search)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "interruptRailList",
+					"ame": "interruptRailList",
 					"description": "Impassable route list.Find the route that does not use the specified route.(SearchType:.. In the case of plain only effective Optional default will be unlimited normal search)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "resultDetail",
+					"ame": "resultDetail",
 					"description": "Result to append the detailed information.addCorporation: adding a company to route (. Optional default becomes a regular result)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "searchCount",
+					"ame": "searchCount",
 					"description": "Maximum search number.Up to 20 (optional. The default will be 5)",
 					"type": "int"
 				},
 				{
 					"in": "query",
-					"name": "searchType",
+					"ame": "searchType",
 					"description": "Search type(if it is optional. Omitted, will be the departure time search)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "sort",
+					"ame": "sort",
 					"description": "Sort type.ekispert: station spa after search order price: fee order time: time order teiki: season ticket charges order transfer: transfer order of the number of co2: CO2 emissions order teiki1: 1 month commuter pass fees order teiki3: a 3-month season ticket Rates order teiki6: 6 month season ticket charges order (. If it is omitted omitted, will be the station spa after search order)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "time",
+					"ame": "time",
 					"description": "Search time (HHMM) (optional. The default is the current time)",
 					"type": "int"
 				},
 				{
 					"in": "query",
-					"name": "viaList",
+					"ame": "viaList",
 					"description": "List, such as the station code or coordinates (multiple designation possible. Maximum 20 about is a standard)",
 					"type": "string"
 				}],
@@ -2432,53 +2432,53 @@
 		"\/ekispertCorp\/v1\/searchCoursePlain": {
 			"get": {
 				"summary": "Average waiting time search",
-				"description": "nThe average waiting time search only route search is.nFor station code and station namenYou can use the station code or station name as the data that identifies the station, but if you want to use as a premise to save is recommended to station code. Station name might be changed in the station name was renamed, etc., but brute string to the station name, station code is a constant regardless of the change of station name.n",
+				"description": "The average waiting time search only route search is.nFor station code and station namenYou can use the station code or station name as the data that identifies the station, but if you want to use as a premise to save is recommended to station code. Station name might be changed in the station name was renamed, etc., but brute string to the station name, station code is a constant regardless of the change of station name.n",
 				"operationId": "the-average-waiting-time-search",
 				"parameters": [{
 					"in": "query",
-					"name": "bus",
+					"ame": "bus",
 					"description": "Bus (route bus and high-speed bus).To use: true, do not use: false (. Optional default will be to use)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "date",
+					"ame": "date",
 					"description": "Search date (YYYYMMDD) (optional. The default is now become the date)",
 					"type": "int"
 				},
 				{
 					"in": "query",
-					"name": "from",
+					"ame": "from",
 					"description": "Departure station.Station code (or station name),coordinate information(radius added), you can specify the point data",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "limitedExpress",
+					"ame": "limitedExpress",
 					"description": "Express.To use: true, do not use: false (. Optional default will be to use)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "plane",
+					"ame": "plane",
 					"description": "airplane.To use: true, do not use: false (. Optional default will be to use)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "shinkansen",
+					"ame": "shinkansen",
 					"description": "Shinkansen (including Nozomi).To use: true, do not use: false (. Optional default will be to use)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "to",
+					"ame": "to",
 					"description": "Arrival station.Station code (or station name),coordinate information(radius added), you can specify the point data",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "via",
+					"ame": "via",
 					"description": "Via the station.Station code (or station name),the coordinate informationcan be specified (optional. The default will be not specified)",
 					"type": "string"
 				}],
@@ -2494,23 +2494,23 @@
 		"\/ekispertCorp\/v1\/shipTimetable": {
 			"get": {
 				"summary": "Sailing route Timetable",
-				"description": "nIt gets the time table from the voyage route name.n",
+				"description": "It gets the time table from the voyage route name.n",
 				"operationId": "sailing-route-timetable",
 				"parameters": [{
 					"in": "query",
-					"name": "date",
+					"ame": "date",
 					"description": "Timetable acquisition date (YYYYMMDD) (optional. The default is the timetable that does not take into account the date)",
 					"type": "int"
 				},
 				{
 					"in": "query",
-					"name": "direction",
+					"ame": "direction",
 					"description": "Direction true: up false: down (. Optional default will be true)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "railName",
+					"ame": "railName",
 					"description": "Sailing Course Name",
 					"type": "string"
 				}],
@@ -2526,11 +2526,11 @@
 		"\/ekispertCorp\/v1\/stationTimetableTrain": {
 			"get": {
 				"summary": "Station timetableu00a0train information",
-				"description": "nStation timetable to get the train information in the data.nFor station code and station namenYou can use the station code or station name as the data that identifies the station, but if you want to use as a premise to save is recommended to station code. Station name might be changed in the station name was renamed, etc., but brute string to the station name, station code is a constant regardless of the change of station name.n",
+				"description": "Station timetable to get the train information in the data.nFor station code and station namenYou can use the station code or station name as the data that identifies the station, but if you want to use as a premise to save is recommended to station code. Station name might be changed in the station name was renamed, etc., but brute string to the station name, station code is a constant regardless of the change of station name.n",
 				"operationId": "station-timetablenbsptrain-information-of",
 				"parameters": [{
 					"in": "query",
-					"name": "code",
+					"ame": "code",
 					"description": "Code to identify the train, etc.",
 					"type": "string"
 				}],
@@ -2546,185 +2546,185 @@
 		"\/ekispertCorp\/v1\/toolboxCourseCondition": {
 			"get": {
 				"summary": "Explore condition generation",
-				"description": "nBased on the request parameters route search to generate the conditions to be used for.nIf not specified detail, it generates a search condition based on the default of the conditions.nIf you specify the detail, and replace the value of the specified parameters with respect to the value of detail. In other words, you can obtain a modification of the part of the detailed search conditions data previously generated.n",
+				"description": "Based on the request parameters route search to generate the conditions to be used for.nIf not specified detail, it generates a search condition based on the default of the conditions.nIf you specify the detail, and replace the value of the specified parameters with respect to the value of detail. In other words, you can obtain a modification of the part of the detailed search conditions data previously generated.n",
 				"operationId": "explore-condition-generation",
 				"parameters": [{
 					"in": "query",
-					"name": "airFare",
+					"ame": "airFare",
 					"description": "Designation of airfare.Always adopting the normal fares: normal, adopted a specific flight discount as much as possible: tokuwari (. Or optional default is tokuwari, the value of the detail)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "connectionBus",
+					"ame": "connectionBus",
 					"description": "Contact bus.Feel free to use: light, commonly available: normal, do not use as much as possible: bit, do not use: never (. Or optional default is normal, the value of the detail)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "detail",
+					"ame": "detail",
 					"description": "More search condition data (does not particularly take into account if it is optional. Omitted)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "entryPathBehavior",
+					"ame": "entryPathBehavior",
 					"description": "When processing route, to inherit the via station specified: true, does not: false (. Or optional default is false, the value of the detail)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "expressStartingStation",
+					"ame": "expressStartingStation",
 					"description": "Express starting station.Search typeis valid only in the case of the plain.As much as possible use: possible, commonly available: normal (. Or optional default is normal, the value of the detail)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "fuzzyLine",
+					"ame": "fuzzyLine",
 					"description": "Route name ambiguous specified.Search typeis valid only in the case of the plain.Ambiguously do: true, strictly perform: false (. Optional default is either the default false, the value of the detail)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "highwayBus",
+					"ame": "highwayBus",
 					"description": "Express bus.Feel free to use light, commonly available: normal, we do not use as much as possible: bit, do not use: never (. Optional default is normal or the value of the detail)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "includeInsurance",
+					"ame": "includeInsurance",
 					"description": "Aviation insurance surcharge.Including the fare: true, not included in the fare: false (. Optional default is either true, the value of detail)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "JRSeasonalRate",
+					"ame": "JRSeasonalRate",
 					"description": "JR season fee.Take into account the seasonal fee of busy season, off-season: true, ignore: false (. Optional default is either true, the value of detail)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "limitedExpress",
+					"ame": "limitedExpress",
 					"description": "Pay express.To use: normal, do not use: never (. Or optional default is normal, the value of the detail)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "liner",
+					"ame": "liner",
 					"description": "Pay local train.Search typeis invalid if it is not already plain.To use: normal, do not use: never (. Or optional default is normal, the value of the detail)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "localBus",
+					"ame": "localBus",
 					"description": "bus.To use: normal, do not use: never (. Or optional default is normal, the value of the detail)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "localBusOnly",
+					"ame": "localBusOnly",
 					"description": "Bus only search.Search typeis valid only in the case of the plain.To: true, does not: false (. Optional default is either the default false, the value of the detail)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "midnightBus",
+					"ame": "midnightBus",
 					"description": "Midnight express bus.Search typeis invalid if it is not already plain.To use: normal, do not use: never (. Or optional default is never, the value of the detail)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "nikukanteiki",
+					"ame": "ikukanteiki",
 					"description": "(And Daburu, JR2 interval regular) 2 section regularly use true: use to false: do not use (Optional default is default value false: do not use)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "plane",
+					"ame": "plane",
 					"description": "airplane.Feel free to use: light, commonly available: normal, do not use as much as possible: bit, do not use: never (. Or optional default is normal, the value of the detail)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "preferredTicketOrder",
+					"ame": "preferredTicketOrder",
 					"description": "The order of priority ticket.Valid only if you set the ic in the ticket computing system.Unspecified: none, give priority to ordinary ticket: normal, priority is given to IC card ticket: ic, give priority to cheap ticket: cheap (. Optional default is either none, the value of the detail)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "shinkansen",
+					"ame": "shinkansen",
 					"description": "Shinkansen.To use: normal, do not use: never (. Or optional default is normal, the value of the detail)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "shinkansenNozomi",
+					"ame": "shinkansenNozomi",
 					"description": "Shinkansen Nozomi.To use: normal, do not use: never (. Or optional default is normal, the value of the detail)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "ship",
+					"ame": "ship",
 					"description": "boat.Feel free to use: light, commonly available: normal, do not use as much as possible: bit, do not use: never (. Or optional default is normal, the value of the detail)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "sleeperTrain",
+					"ame": "sleeperTrain",
 					"description": "Sleeper train.As much as possible to use: possible, commonly available: normal, do not use: never (. Or optional default is never, the value of the detail)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "studentDiscount",
+					"ame": "studentDiscount",
 					"description": "Student discount ticket.Calculations: true, does not compute: false (. Optional default is either false, the value of the detail)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "surchargeKind",
+					"ame": "surchargeKind",
 					"description": "Express fee type desired initial value.Free seating: free, reserved seats: reserved, Green: green (. Or optional default is free, the value of the detail)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "teikiKind",
+					"ame": "teikiKind",
 					"description": "Regular type initial value.Commuting: bussiness, student discount (high school): highSchool, student discount: university (. Optional default is either bussiness, the value of the detail)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "ticketSystemType",
+					"ame": "ticketSystemType",
 					"description": "System of ticket calculation.Only ordinary ticket to calculate: normal, IC card ticket is also calculated: ic (. Or optional default is normal, the value of the detail)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "transfer",
+					"ame": "transfer",
 					"description": "Transfer.Search typeis valid only in the case of the plain.Do not mind: normal, a little care: little, do not use: never (. Or optional default is normal, the value of the detail)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "transferTime",
+					"ame": "transferTime",
 					"description": "Transfer time.Search typeis invalid if it is not already plain.Station Spa default after: normal, watch a little bit of margin than the default value: moreMargin, see the margin than the default value: mostMargin, to a shorter time than the default value:. LessMargin (or optional default is normal, of detail value)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "useJR",
+					"ame": "useJR",
 					"description": "JR line.Search typeis valid only in the case of the plain.Feel free to use light, commonly available: normal, do not use as much as possible: bit (. Or optional default is normal, the value of the detail)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "waitAverageTime",
+					"ame": "waitAverageTime",
 					"description": "Use of the departure station ride waiting average time.Search typeis valid only in the case of the plain.To use the average waiting time: true, no waiting: false (. Optional default is either true, the value of detail)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "walk",
+					"ame": "walk",
 					"description": "Station between the walk.Search typeis valid only in the case of the plain.Do not mind: normal, a little care: little, do not use: never (. Or optional default is normal, the value of the detail)",
 					"type": "string"
 				}],
@@ -2740,65 +2740,65 @@
 		"\/ekispertCorp\/v1\/toolboxCoursePoint": {
 			"get": {
 				"summary": "Location generated",
-				"description": "nRoute search to generate a data point to be used fornFor station code and station namenYou can use the station code or station name as the data that identifies the station, but if you want to use as a premise to save is recommended to station code. Station name might be changed in the station name was renamed, etc., but brute string to the station name, station code is a constant regardless of the change of station name.n",
+				"description": "Route search to generate a data point to be used fornFor station code and station namenYou can use the station code or station name as the data that identifies the station, but if you want to use as a premise to save is recommended to station code. Station name might be changed in the station name was renamed, etc., but brute string to the station name, station code is a constant regardless of the change of station name.n",
 				"operationId": "location-generated",
 				"parameters": [{
 					"in": "query",
-					"name": "distance",
+					"ame": "distance",
 					"description": "Distance (multiple designation possible up to five optional units:... 100m)",
 					"type": "int"
 				},
 				{
 					"in": "query",
-					"name": "fare",
+					"ame": "fare",
 					"description": "Fare (multiple designation possible up to five optional units:... The circle)",
 					"type": "int"
 				},
 				{
 					"in": "query",
-					"name": "name",
-					"description": "name",
+					"ame": "ame",
+					"description": "ame",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "station",
+					"ame": "station",
 					"description": "Station code or station name (stationCode and exclusive. Multiple designation possible. Maximum 5)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "stationCode",
+					"ame": "stationCode",
 					"description": "Station Code (station and exclusive. Multiple designation possible. Maximum 5)",
 					"type": "int"
 				},
 				{
 					"in": "query",
-					"name": "teiki1",
+					"ame": "teiki1",
 					"description": "1 month regular fee (multiple designation possible up to five optional units:... The circle)",
 					"type": "int"
 				},
 				{
 					"in": "query",
-					"name": "teiki3",
+					"ame": "teiki3",
 					"description": "3 months regular fee (multiple designation possible up to five optional units:... The circle)",
 					"type": "int"
 				},
 				{
 					"in": "query",
-					"name": "teiki6",
+					"ame": "teiki6",
 					"description": "6 months periodic fee (multiple designation possible up to five optional units:... The circle)",
 					"type": "int"
 				},
 				{
 					"in": "query",
-					"name": "time",
+					"ame": "time",
 					"description": "Time required (multiple designation possible up to five units:.. Minute)",
 					"type": "int"
 				},
 				{
 					"in": "query",
-					"name": "traffic",
+					"ame": "traffic",
 					"description": "Moving means (multiple designation possible. Maximum 5. Optional)",
 					"type": "string"
 				}],
@@ -2814,35 +2814,35 @@
 		"\/ekispertCorp\/v1\/trainTimetable": {
 			"get": {
 				"summary": "Train schedule",
-				"description": "nIt gets the operation section lists and train timetable.nAs the usage method,n 1. Get the service interval list without specifying the serviceSectionCoden 2. Get the train timetable and specify the service interval code of the list to serviceSectionCodenIt will flow that.nFor station code and station namenYou can use the station code or station name as the data that identifies the station, but if you want to use as a premise to save is recommended to station code. Station name might be changed in the station name was renamed, etc., but brute string to the station name, station code is a constant regardless of the change of station name.n",
+				"description": "It gets the operation section lists and train timetable.nAs the usage method,n 1. Get the service interval list without specifying the serviceSectionCoden 2. Get the train timetable and specify the service interval code of the list to serviceSectionCodenIt will flow that.nFor station code and station namenYou can use the station code or station name as the data that identifies the station, but if you want to use as a premise to save is recommended to station code. Station name might be changed in the station name was renamed, etc., but brute string to the station name, station code is a constant regardless of the change of station name.n",
 				"operationId": "train-schedule",
 				"parameters": [{
 					"in": "query",
-					"name": "date",
+					"ame": "date",
 					"description": "List acquisition date (YYYYMMDD) (optional. The default is today to date)",
 					"type": "int"
 				},
 				{
 					"in": "query",
-					"name": "number",
+					"ame": "umber",
 					"description": "The number of issue.serviceSectionCode at the same time to narrow down the timetable in the specified to issue number.(Multiple designation possible. Optional. The default will be not specified)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "serviceSectionCode",
+					"ame": "serviceSectionCode",
 					"description": "Service interval code.stationName, is exclusive and stationCode (optional. The default is the service interval list)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "stationCode",
+					"ame": "stationCode",
 					"description": "Station code.stationName and is exclusive (Optional. The default will be not specified)",
 					"type": "int"
 				},
 				{
 					"in": "query",
-					"name": "stationName",
+					"ame": "stationName",
 					"description": "Station name.stationCode and is exclusive (Optional. The default will be not specified)",
 					"type": "string"
 				}],
@@ -2862,37 +2862,37 @@
 				"operationId": "checking-of-available-space",
 				"parameters": [{
 					"in": "query",
-					"name": "Authorization",
+					"ame": "Authorization",
 					"description": "OAuth authentication scheme.SeeAPI Common Reference2.3 for details.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "application\/json is returned.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "err_cd",
+					"ame": "err_cd",
 					"description": "Code to describe detailed content of the error. Seespecificationu300cu696du52d9u30a8u30e9u30fcu30b3u30fcu30c9u4e00u89a7u300d(List of operational error codes).Seespecificationu300cu696du52d9u30a8u30e9u30fcu30deu30c3u30d4u30f3u30b0u300d(Operational error mapping).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "free_space",
+					"ame": "free_space",
 					"description": "Space a user can use in all the services.Unit is byte.In case of errors with which uploading can be continued, fixed values are set.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "max_space",
+					"ame": "max_space",
 					"description": "u3010PC apps onlyu3011Maximum space (not available space) a user can use in all the services set only in case of PC apps.Unit is byte.In case of errors with which uploading can be continued, fixed values are set.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "result",
+					"ame": "result",
 					"description": "Indicate success\/failure of processing results.0 : Succeeded",
 					"type": "string"
 				}],
@@ -2912,55 +2912,55 @@
 				"operationId": "obtain-content-infooriginalresized",
 				"parameters": [{
 					"in": "query",
-					"name": "Authorization",
+					"ame": "Authorization",
 					"description": "OAuth authentication schemeSeeAPI Common Reference2.3 for details.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "Specifies the application\/json.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "content_guid",
+					"ame": "content_guid",
 					"description": "File IDs of files to be obtained",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "err_cd",
+					"ame": "err_cd",
 					"description": "Code to describe detailed content of the error. Seespecificationu300cu696du52d9u30a8u30e9u30fcu30b3u30fcu30c9u4e00u89a7u300d(List of operational error codes).Seespecificationu300cu696du52d9u30a8u30e9u30fcu30deu30c3u30d4u30f3u30b0u300d(Operational error mapping).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "file_type_cd",
+					"ame": "file_type_cd",
 					"description": "Media type of contents.One of the following:1:Still image2: Video3 Slide movie",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "param_name",
+					"ame": "param_name",
 					"description": "In case the error location can be identified by the request items, the physical item names are set.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "param_value",
+					"ame": "param_value",
 					"description": "In case the error location can be identified by the request items, values of the Error items are set.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "resize_type_cd",
+					"ame": "resize_type_cd",
 					"description": "In case image type code is 1, 3, specify 1, 2.In case of 2, specify 1.2.3.One of the following:1 : Original2 : Resized image3 : Resized video",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "result",
+					"ame": "result",
 					"description": "Indicates success\/failure of processing1 : Failed",
 					"type": "string"
 				}],
@@ -2983,151 +2983,151 @@
 				},
 				{
 					"in": "query",
-					"name": "Authorization",
+					"ame": "Authorization",
 					"description": "OAuth authentication scheme.SeeAPI Common Reference2.3 for details.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "Specifies the application\/json.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "content_cnt",
+					"ame": "content_cnt",
 					"description": "The number of contents returned as this response (The number of elements of Content list).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "content_list",
+					"ame": "content_list",
 					"description": "List of contents satisfying the search conditions.*In case the number of Content info. =0 as a result of search, null (the number of elements = 0) array.content_list : [ ]",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "content_name",
+					"ame": "content_name",
 					"description": "Content file name.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "dustbox_condition(Filtercondition)",
+					"ame": "dustbox_condition(Filtercondition)",
 					"description": "Filter condition : Whether contents are inside the trash box or notOne of the following:1 : Contents outside of trash box2 : Contents inside trash box",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "err_cd",
+					"ame": "err_cd",
 					"description": "Code to describe detailed content of the error. Seespecificationu300cu696du52d9u30a8u30e9u30fcu30b3u30fcu30c9u4e00u89a7u300d(List of operational error codes).Seespecificationu300cu696du52d9u30a8u30e9u30fcu30deu30c3u30d4u30f3u30b0u300d(Operational error mapping).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "exif_camera_day",
+					"ame": "exif_camera_day",
 					"description": "Date of photo shooting obtained from EXIF. Date of file creation in case there is no date of photo shooting.Specify as far as seconds with the date-time format of RFC 3339.Sample value)yyyy-mm-ddThh:mi:ss+09:00",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "file_data_size",
+					"ame": "file_data_size",
 					"description": "File size of the original (Unit is byte)*(Reference) Max. size on the service specification is 30MB",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "file_type_cd",
+					"ame": "file_type_cd",
 					"description": "Media type of contents.1:Still image2:Video3:Slide movie",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "file_type_cd(Filtercondition)",
+					"ame": "file_type_cd(Filtercondition)",
 					"description": "Filter condition : Media type of contentsOne of the following:1: Still image2: Video3:Slide movie",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "max_results(Pagingcondition)",
+					"ame": "max_results(Pagingcondition)",
 					"description": "Paging condition : Of all the search results, the maximum number (Page size) of results returned as responses.minimum : 1maximum : 100default : 100*Internally, the upper limit value and value at omission shall be variables defined by property.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "mdate",
+					"ame": "mdate",
 					"description": "Last updated date &amp; time of Content info. Updated in case the image is rotated etc. after uploading. Date &amp; time of deletion in case the content is inside the trash box.Specify as far as seconds with the date-time format of RFC 3339.Sample value)yyyy-mm-ddThh:mi:ss+09:00",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "min_date_modified(Filtercondition)",
+					"ame": "min_date_modified(Filtercondition)",
 					"description": "Filter condition : In case updated date &amp; time of content are equal or greater than this item.Specify as far as seconds with the date-time format of RFC 3339.Time zone can be set arbitrarily.Sample value)yyyy-mm-ddThh:mi:ss+09:00 (Example of JST)yyyy-mm-ddThh:mi:ssZ (Example of UTC)*Not allowed to specify simultaneously with Uploaded date &amp; time (Minimum value)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "min_date_upload(Filtercondition)",
+					"ame": "min_date_upload(Filtercondition)",
 					"description": "Filter condition : In case uploaded date &amp; time of content are equal or greater than this item.Specify as far as seconds with the date-time format of RFC 3339.Time zone can be set arbitrarily.Sample value)yyyy-mm-ddThh:mi:ss+09:00 (Example of JST)yyyy-mm-ddThh:mi:ssZ (Example of UTC)*Not allowed to specify simultaneously with Updated date &amp; time (Minimum value)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "next_page",
+					"ame": "ext_page",
 					"description": "Starting number of the next page.u30fbWith the next page : Starting number + The number of contentsu30fbWithout the next page : 0",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "param_name",
+					"ame": "param_name",
 					"description": "In case the error location can be identified by the request items, the physical item names are set.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "param_value",
+					"ame": "param_value",
 					"description": "In case the error location can be identified by the request items, values of the Error items are set.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "projection",
+					"ame": "projection",
 					"description": "Range of return data item set.Fixed value 3 : Detailed info. (No tag info.)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "resize_ng_flg",
+					"ame": "resize_ng_flg",
 					"description": "Resize NG flag.0: Resize OK1: Resize NG",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "result",
+					"ame": "result",
 					"description": "Indicates success\/failure of processing results.0 : Succeeded",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "sort_type(Pagingcondition)",
+					"ame": "sort_type(Pagingcondition)",
 					"description": "Paging condition : Specification of sorting of search results (Content list).One of the following:1 : Descending ordering of photo shot dates2 : Ascending ordering of photo shot dates3 : Descending ordering of Updated date &amp; time4 : Ascending ordering of Updated date &amp; time5 : Ascending ordering of Uploaded date &amp; time6 : Descending ordering of Uploaded date &amp; time",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "start",
+					"ame": "start",
 					"description": "Same value as the Starting number of requestOf all the search results, the Starting number of records returned as responses.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "start(Pagingcondition)",
+					"ame": "start(Pagingcondition)",
 					"description": "Paging condition : Of all the search results, starting number of records returned as responses.minimum : 1default : 100*In case values exceeding the total number of search results are specified, the normal response The number of contents = 0 shall be returned.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "upload_datetime",
+					"ame": "upload_datetime",
 					"description": "u30fbIn case Image type code=1,2 : Date &amp; time that analysis is completed after uploading contents onto Photo Collection.u30fbIn case Image type code=3 : Date &amp; time of creation of Slide movies.Specify as far as seconds with the date-time format of RFC 3339.Sample value)yyyy-mm-ddThh:mi:ss+09:00",
 					"type": "string"
 				}],
@@ -3147,79 +3147,79 @@
 				"operationId": "uploading-with-tags",
 				"parameters": [{
 					"in": "query",
-					"name": "Authorization",
+					"ame": "Authorization",
 					"description": "OAuth authentication scheme.SeeAPI Common Reference2.3 for details.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "Specifies the multipart\/form-data.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "data_guid",
+					"ame": "data_guid",
 					"description": "Unique values given to contents by the server.Data IDs of uploaded files are set.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "err_cd",
+					"ame": "err_cd",
 					"description": "Code to describe detailed content of the error. Seespecificationu300cu696du52d9u30a8u30e9u30fcu30b3u30fcu30c9u4e00u89a7u300d(List of operational error codes).Seespecificationu300cu696du52d9u30a8u30e9u30fcu30deu30c3u30d4u30f3u30b0u300d(Operational error mapping).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "file",
+					"ame": "file",
 					"description": "Files to be uploaded.File names are needed for character strings including extensions and Content-Disposition.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "file_data_size",
+					"ame": "file_data_size",
 					"description": "Sets file sizes of contents to be uploaded.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "file_name",
+					"ame": "file_name",
 					"description": "Sets file names of contents to be uploaded.URL encoded character strings.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "file_type_cd",
+					"ame": "file_type_cd",
 					"description": "Image type codeOne of the following:1 : Image2 : Video",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "mime_type",
+					"ame": "mime_type",
 					"description": "Sets MIME types of contents to be uploaded.In case of Images:image\/jpeg : JPEG imageimage\/pjpeg : PJPEG imageIn case of Videos:video\/3gpp : 3GP video (.3gp)video\/avi : AVI video (.avi)video\/quicktime : (.mov)video\/mp4 : (.mp4)video\/vnd.mts : (.mts)video\/mpeg : (m2ts)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "optional_tag_name",
+					"ame": "optional_tag_name",
 					"description": "Album tag names are set in case album tags are given to contents to be uploaded. URL encoded character strings.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "param_name",
+					"ame": "param_name",
 					"description": "In case the error location can be identified by the request items, the physical item names are set.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "param_value",
+					"ame": "param_value",
 					"description": "In case the error location can be identified by the request items, values of the Error items are set.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "result",
+					"ame": "result",
 					"description": "Indicates success\/failure of processing results.0 : Succeeded",
 					"type": "string"
 				}],
@@ -3242,55 +3242,55 @@
 				},
 				{
 					"in": "query",
-					"name": "Authorization",
+					"ame": "Authorization",
 					"description": "OAuth authentication scheme.SeeAPI Common Reference2.3 for details.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "Specifies the application\/json.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "content_guid",
+					"ame": "content_guid",
 					"description": "Content ID.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "content_guid_list",
+					"ame": "content_guid_list",
 					"description": "Content ID list.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "err_cd",
+					"ame": "err_cd",
 					"description": "Code to describe detailed content of the error. Seespecificationu300cu696du52d9u30a8u30e9u30fcu30b3u30fcu30c9u4e00u89a7u300d(List of operational error codes).Seespecificationu300cu696du52d9u30a8u30e9u30fcu30deu30c3u30d4u30f3u30b0u300d(Operational error mapping).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "param_name",
+					"ame": "param_name",
 					"description": "In case the error location can be identified by the request items, the physical item names are set.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "param_value",
+					"ame": "param_value",
 					"description": "In case the error location can be identified by the request items, values of the Error items are set.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "result",
+					"ame": "result",
 					"description": "Indicates success\/failure of processing results.0 : Succeeded*Considered succeeded when at least 1 files operation has been completed.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "status",
+					"ame": "status",
 					"description": "Status.One of the following:0 : Recover1 : Move to trash box",
 					"type": "string"
 				}],
@@ -3313,61 +3313,61 @@
 				},
 				{
 					"in": "query",
-					"name": "Authorization",
+					"ame": "Authorization",
 					"description": "OAuth authentication scheme.SeeAPI Common Reference2.3 for details.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "Specifies the application\/json.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "content_info_list",
+					"ame": "content_info_list",
 					"description": "Content ID list.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "err_cd",
+					"ame": "err_cd",
 					"description": "Code to describe detailed content of the error. Seespecificationu300cu696du52d9u30a8u30e9u30fcu30b3u30fcu30c9u4e00u89a7u300d(List of operational error codes).Seespecificationu300cu696du52d9u30a8u30e9u30fcu30deu30c3u30d4u30f3u30b0u300d(Operational error mapping sheet).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "mime_type",
+					"ame": "mime_type",
 					"description": "Media type of images.image\/jpeg",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "ng_list",
+					"ame": "g_list",
 					"description": "Acquisition failure list.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "param_name",
+					"ame": "param_name",
 					"description": "In case the error location can be identified by the request items, the physical item names are set.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "param_value",
+					"ame": "param_value",
 					"description": "In case the error location can be identified by the request items, values of the Error items are set.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "result",
+					"ame": "result",
 					"description": "Indicates success\/failure of processing results.0 : Succeeded",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "thumbnail",
+					"ame": "thumbnail",
 					"description": "Image data of thumbnail encoded by Base64.",
 					"type": "string"
 				}],
@@ -3387,43 +3387,43 @@
 				"operationId": "morphological-analysis",
 				"parameters": [{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "MIME type of the transmitted data, specify one of the following.Application \/ X-Www-Form-urlencodedApplication \/ json",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "info_filter",
+					"ame": "info_filter",
 					"description": "Morphological information filter, specify one of the following.If you want to specify more than one, | specified, separated by.Notation: formmorpheme: posreading: ReadForm | pos | Read (default)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "pos_filter",
+					"ame": "pos_filter",
 					"description": "Specify the morphological part of speech filter.Specified, separated by a |  the part of speech to the output target.If omitted, all morpheme is specified.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "request_id",
+					"ame": "request_id",
 					"description": "Specify the request ID.The default is, labs.goo.ne.jp [tab character] request reception time [tab character] serial number is specified.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "sentence",
+					"ame": "sentence",
 					"description": "Specify the analyzed text.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "word_list",
+					"ame": "word_list",
 					"description": "Return the morpheme list.Morpheme list is the sequence of the sentence morpheme list, divided into each sentence.The sentence morpheme list in an array of morphological information, the morphological information contains the specified element in the morphological information filtering out of the notation, morpheme-reading.Example)morpheme list: [ . . [[ Statement], [ one], []], [[ statement], [ two], []]]Buntani morpheme list: [[ statement], [ one], [] .]morphological information: [ statement]",
 					"type": "string"
 				}],
@@ -3443,31 +3443,31 @@
 				"operationId": "word-similarity-calculation",
 				"parameters": [{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "MIME type of the transmitted data, specify one of the following.Application \/ X-Www-Form-urlencodedApplication \/ json",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "query_pair",
+					"ame": "query_pair",
 					"description": "It specifies an array format two strings to be a similarity calculation target.Sample value) [ Windows, windows]",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "request_id",
+					"ame": "request_id",
 					"description": "Specify the request ID.The default is, labs.goo.ne.jp [tab character] request reception time [tab character] serial number is specified.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "score",
+					"ame": "score",
 					"description": "Return a similarity score.Similarity score is output in the range of 0 to 1 (the closer to 1 analogs).",
 					"type": "string"
 				}],
@@ -3487,25 +3487,25 @@
 				"operationId": "user-authentication-page-acquisition",
 				"parameters": [{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "MIME type of the received data, return the following.application \/ json; charset = UTF- 8",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "error",
+					"ame": "error",
 					"description": "Error object.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "uri",
+					"ame": "uri",
 					"description": "URL for user authentication.Sample value) https:\/\/api.twitter.com\/oauth\/authorize?oauth_token=abcdefg",
 					"type": "string"
 				}],
@@ -3528,97 +3528,97 @@
 				},
 				{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "Specify the content type of the request body.multipart \/ form-data",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "cuisine",
+					"ame": "cuisine",
 					"description": "food",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "error",
+					"ame": "error",
 					"description": "Error object.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Fashion(color)",
+					"ame": "Fashion(color)",
 					"description": "fashion_color",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Fashion(handle)",
+					"ame": "Fashion(handle)",
 					"description": "fashion_pattern",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Fashion(kindsofclothes)",
+					"ame": "Fashion(kindsofclothes)",
 					"description": "fashion_type",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Fashion(~system)",
+					"ame": "Fashion(~system)",
 					"description": "fashion_style",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "flower",
+					"ame": "flower",
 					"description": "flower",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "image",
+					"ame": "image",
 					"description": "Image file (binary)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "jobId",
+					"ame": "jobId",
 					"description": "Identification ID of the recognized job.Sample value) 142505_4NJ31TGOWd",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "modelName",
+					"ame": "modelName",
 					"description": "In accordance with the recognition object, used to switch the model used for recognition.Model name listto specify from.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Poisonousmushroom",
+					"ame": "Poisonousmushroom",
 					"description": "kinoko",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "scene",
+					"ame": "scene",
 					"description": "scene",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "score",
+					"ame": "score",
 					"description": "Scores representing the likelihood of the recognition result candidates.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "tag",
+					"ame": "tag",
 					"description": "Category nameSuitable to be estimated, the category name for the input image.",
 					"type": "string"
 				}],
@@ -3638,37 +3638,37 @@
 				"operationId": "feedback-to-the-whole-of-the-recognition-result-candidate",
 				"parameters": [{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "comment",
+					"ame": "comment",
 					"description": "You can give any comments on the feedback.Character code is UTF-8.Sample value) sample comment",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "Specify the content type of the request body.application \/ json; charset = UTF- 8",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "error",
+					"ame": "error",
 					"description": "Error object.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "isValid",
+					"ame": "isValid",
 					"description": "Recognition result indicating whether was reasonable.When it is reasonable it is true, when it is not reasonable to specify the false.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "recognitionId",
+					"ame": "recognitionId",
 					"description": "Identification ID of the recognized job.RecognitionId that has been paid out in the image recognition.Sample value) 947ec350-299c-11e4-800f-0afa47a658a2",
 					"type": "string"
 				}],
@@ -3688,43 +3688,43 @@
 				"operationId": "feedback-on-incorrect-recognition-result",
 				"parameters": [{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "category",
+					"ame": "category",
 					"description": "It described the category of the product of feedback target.Specify the category that has been paid out in the image recognition.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "comment",
+					"ame": "comment",
 					"description": "You can give any comments on the feedback.Character code is UTF-8.Sample value) sample comment",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "Specify the content type of the request body.application \/ json; charset = UTF- 8",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "error",
+					"ame": "error",
 					"description": "Error object.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "itemId",
+					"ame": "itemId",
 					"description": "It describes the Id of the product of feedback target.Specify the itemId that has been paid out in the image recognition.Sample value) book_2101060417",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "recognitionId",
+					"ame": "recognitionId",
 					"description": "Identification ID of the recognized job.RecognitionId that has been paid out in the image recognition.Sample value) 947ec350-299c-11e4-800f-0afa47a658a2",
 					"type": "string"
 				}],
@@ -3744,43 +3744,43 @@
 				"operationId": "feedback-for-each-candidate-of-the-recognition-result",
 				"parameters": [{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "comment",
+					"ame": "comment",
 					"description": "You can give any comments on the feedback.Character code is UTF-8.Sample value) sample comment",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "Specify the content type of the request body.application \/ json; charset = UTF- 8",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "error",
+					"ame": "error",
 					"description": "Error object.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "isValid",
+					"ame": "isValid",
 					"description": "One of the products of the recognition result indicating whether was reasonable.When it is reasonable it is true, when it is not reasonable to specify the false.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "itemId",
+					"ame": "itemId",
 					"description": "It describes the Id of the product of feedback target.Specify the itemId that has been paid out in the image recognition.Sample value) book_2101060417",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "recognitionId",
+					"ame": "recognitionId",
 					"description": "Identification ID of the recognized job.RecognitionId that has been paid out in the image recognition.Sample value) 947ec350-299c-11e4-800f-0afa47a658a2",
 					"type": "string"
 				}],
@@ -3800,43 +3800,43 @@
 				"operationId": "feedback-to-the-described-errors-in-the-data",
 				"parameters": [{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "category",
+					"ame": "category",
 					"description": "It described the category of the product of feedback target.Specify the category that has been paid out in the image recognition.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "comment",
+					"ame": "comment",
 					"description": "You can give any comments on the feedback.Character code is UTF-8.Sample value) sample comment",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "Specify the content type of the request body.application \/ json; charset = UTF- 8",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "error",
+					"ame": "error",
 					"description": "Error object.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "itemId",
+					"ame": "itemId",
 					"description": "It describes the Id of the product of feedback target.Specify the itemId that has been paid out in the image recognition.Sample value) book_2101060417",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "recognitionId",
+					"ame": "recognitionId",
 					"description": "Identification ID of the recognized job.RecognitionId that has been paid out in the image recognition.Sample value) 947ec350-299c-11e4-800f-0afa47a658a2",
 					"type": "string"
 				}],
@@ -3859,380 +3859,380 @@
 				},
 				{
 					"in": "query",
-					"name": "200OK",
+					"ame": "200OK",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "204NoContent",
+					"ame": "204NoContent",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "400BadRequest",
+					"ame": "400BadRequest",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "403Forbidden",
+					"ame": "403Forbidden",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "404NotFound",
+					"ame": "404NotFound",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "405MethodNotAllowed",
+					"ame": "405MethodNotAllowed",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "408RequestTime-out",
+					"ame": "408RequestTime-out",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "500InternalServerError",
+					"ame": "500InternalServerError",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "503ServiceUnavailable",
+					"ame": "503ServiceUnavailable",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "abstract",
+					"ame": "abstract",
 					"description": "Overview of the recognition result content associated with the object of a candidate.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "actor",
+					"ame": "actor",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "ageRequirement",
+					"ame": "ageRequirement",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "artist",
+					"ame": "artist",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "author",
+					"ame": "author",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Booksrecognition",
+					"ame": "Booksrecognition",
 					"description": "Possible recognition of the cover of the books that are commercially available.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "brand",
+					"ame": "brand",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "candidates",
+					"ame": "candidates",
 					"description": "Recognition results list.It has become a list of objects, each candidate for each object recognition result.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "captionLang",
+					"ame": "captionLang",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "category",
+					"ame": "category",
 					"description": "Category of the returned object as a recognition result candidate.Sample value) food",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "CDrecognition",
+					"ame": "CDrecognition",
 					"description": "Can jacket recognition of CD on the market.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "ceroRating",
+					"ame": "ceroRating",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "composer",
+					"ame": "composer",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "conductor",
+					"ame": "conductor",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "Specify the content type of the request body.application \/ octet-stream",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "detail",
+					"ame": "detail",
 					"description": "Detailed information of the recognition result.Each item of more informationProduct detailssee.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "dimension",
+					"ame": "dimension",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "director",
+					"ame": "director",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "discs",
+					"ame": "discs",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "DVDrecognition",
+					"ame": "DVDrecognition",
 					"description": "It can be recognized in the DVD jackets on the market.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "ean13",
+					"ame": "ean13",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "ean8",
+					"ame": "ean8",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "error",
+					"ame": "error",
 					"description": "Error object.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Foodpackagerecognition",
+					"ame": "Foodpackagerecognition",
 					"description": "Possible image recognition of the commercially available food and beverages with a package label.(Example: instant noodles, bottles, cans, etc.).Those without package label does not recognize (for example: vegetables, fruits, such as cooking).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "format",
+					"ame": "format",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "imageUrl",
+					"ame": "imageUrl",
 					"description": "URL of the image of the recognition result candidates.Sample value) http:\/\/sample.com\/samlpe_image.jpg",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "isbn10",
+					"ame": "isbn10",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "isbn13",
+					"ame": "isbn13",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "itemId",
+					"ame": "itemId",
 					"description": "ID of recognition result candidates.In the image recognition API (object recognition), return image label was registered.In the image recognition API (product recognition), it returns a unique ID to the product.The name of the product, return in detail.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "itemName",
+					"ame": "itemName",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "label",
+					"ame": "label",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "lang",
+					"ame": "lang",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "maker",
+					"ame": "maker",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "media",
+					"ame": "media",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "numOfCandidates",
+					"ame": "umOfCandidates",
 					"description": "It specifies the number of candidates to be displayed as a result of the recognition of image recognition.Natural number of from 1 to 20 (the default value is 10).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "pages",
+					"ame": "pages",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "PCsoftwarerecognition",
+					"ame": "PCsoftwarerecognition",
 					"description": "Can be recognized in the PC software packages are commercially available.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "platform",
+					"ame": "platform",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "preservation",
+					"ame": "preservation",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "producingArea",
+					"ame": "producingArea",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Productrecognition",
+					"ame": "Productrecognition",
 					"description": "Recognition corresponding to that all categories of goods (books, DVD, CD, PC software, game software, food package) a.Compared to other categories, there is some time to recognize it takes.By specifying the other categories, it will be expected to improve the recognition speed.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "publisher",
+					"ame": "publisher",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "quantity",
+					"ame": "quantity",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "recog",
+					"ame": "recog",
 					"description": "In accordance with the recognition object, used to switch the category to be used for recognition.Category listto specify from.If you have previously type of the object is determined, by appropriately specifying the recog, there is a possibility that the recognition accuracy and recognition speed is improved.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "recognitionId",
+					"ame": "recognitionId",
 					"description": "Identification ID of the recognized job.Sample value) 947ec350-299c-11e4-800f-0afa47a658a2",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "regionCode",
+					"ame": "regionCode",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "relatedContents",
+					"ame": "relatedContents",
 					"description": "Content that is relevant to the object of the recognition result candidate.List (object).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "releaseDate",
+					"ame": "releaseDate",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "runningTime",
+					"ame": "runningTime",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "seller",
+					"ame": "seller",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "sites",
+					"ame": "sites",
 					"description": "Recognition results related site information to the object of the candidate.List (object).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "songs",
+					"ame": "songs",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "sparsCode",
+					"ame": "sparsCode",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "systemRequirements",
+					"ame": "systemRequirements",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "time",
+					"ame": "time",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "title",
+					"ame": "title",
 					"description": "Title of the EC site dealing with the object of recognition result candidates.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "translator",
+					"ame": "translator",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "TVgamesoftwarerecognition",
+					"ame": "TVgamesoftwarerecognition",
 					"description": "It can be recognized in the TV game software packages on the market.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "type",
+					"ame": "type",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Usercategory",
+					"ame": "Usercategory",
 					"description": "User category createuser category that has been created by.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "weight",
+					"ame": "weight",
 					"type": "string"
 				}],
 				"responses": {
@@ -4302,54 +4302,54 @@
 				"operationId": "dictionary-creation",
 				"parameters": [{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "MIME type of the received data, return the following.application \/ json; charset = UTF- 8",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "creatingDicJobId",
+					"ame": "creatingDicJobId",
 					"description": "Dictionary create job IDdictionary creation status confirmationjob Id necessary in order to confirm the creation status of the dictionary at.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "dataSetIds",
+					"ame": "dataSetIds",
 					"description": "Data set IDdata set to be registered in the dictionary.That can be specified more than once.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "dicId",
+					"ame": "dicId",
 					"description": "Dictionary IDId to identify the dictionary you want to create.Character class [a-zA-Z0-9_ &yen; - ]any string that has been configured with a character that belongs to the",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "dicPram",
+					"ame": "dicPram",
 					"description": "Dictionary parametersrefer to the u203b dictionary list of parameters.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "error",
+					"ame": "error",
 					"description": "Error object.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "h7oEqe3X",
+					"ame": "h7oEqe3X",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "token",
+					"ame": "token",
 					"description": "User token acquisitionuser token to be paid out at.",
 					"type": "string"
 				}],
@@ -4423,37 +4423,37 @@
 				"operationId": "creating-user-category",
 				"parameters": [{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "categoryId",
+					"ame": "categoryId",
 					"description": "User category IDimage recognitionby specifying the user category ID to recog in, user data (image label) that brute string to the user category is possible image recognition based on.Image recognitionto use, thedeployment of user categorymust be mapped to deploy the dictionary in the user category.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "MIME type of the received data, return the following.application \/ json; charset = UTF- 8",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "error",
+					"ame": "error",
 					"description": "Error object.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "name",
+					"ame": "ame",
 					"description": "Field for a summary of the user categorycharacter class [a-zA-Z0-9_ &yen; - ]string that has been configured with a character that belongs to the",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "token",
+					"ame": "token",
 					"description": "User token acquisitionuser token to be paid out at.",
 					"type": "string"
 				}],
@@ -4476,43 +4476,43 @@
 				},
 				{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "MIME type of the received data, return the following.application \/ json; charset = UTF- 8",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "creatingTmpImageDataSetJobId",
+					"ame": "creatingTmpImageDataSetJobId",
 					"description": "Data set created from the image storage areajob Id of the order to verify the data set creation situation that has been paid out in.Sample value) 947ec350-299c-11e4-800f-0afa47a658a2",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "description",
+					"ame": "description",
 					"description": "Status Summary statement",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "error",
+					"ame": "error",
 					"description": "Error object.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "status",
+					"ame": "status",
 					"description": "Status object",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "token",
+					"ame": "token",
 					"description": "User token acquisitionuser token to be paid out at.",
 					"type": "string"
 				}],
@@ -4535,37 +4535,37 @@
 				},
 				{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "MIME type of the received data, return the following.application \/ json; charset = UTF- 8",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "dataSetId",
+					"ame": "dataSetId",
 					"description": "ID of the data set to retrievedata set created from the image URLand thedata set created from the image storage areadata set ID specified in.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "error",
+					"ame": "error",
 					"description": "Error object.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "label",
+					"ame": "label",
 					"description": "Image labeldata set created from the image URLand thedata set created from the image storage areaimage label specified in.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "token",
+					"ame": "token",
 					"description": "User token acquisitionuser token to be paid out at.",
 					"type": "string"
 				}],
@@ -4585,31 +4585,31 @@
 				"operationId": "user-category-delete",
 				"parameters": [{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "categoryId",
+					"ame": "categoryId",
 					"description": "User category IDID of the user category that you want to delete",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "MIME type of the received data, return the following.application \/ json; charset = UTF- 8",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "error",
+					"ame": "error",
 					"description": "Error object.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "token",
+					"ame": "token",
 					"description": "User token acquisitionuser token to be paid out at.",
 					"type": "string"
 				}],
@@ -4632,25 +4632,25 @@
 				},
 				{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "MIME type of the received data, return the following.application \/ json; charset = UTF- 8",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "error",
+					"ame": "error",
 					"description": "Error object.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "token",
+					"ame": "token",
 					"description": "User token acquisitionuser token to be paid out at.",
 					"type": "string"
 				}],
@@ -4673,31 +4673,31 @@
 				},
 				{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "MIME type of the received data, return the following.application \/ json; charset = UTF- 8",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "error",
+					"ame": "error",
 					"description": "Error object.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "label",
+					"ame": "label",
 					"description": "Image labelimage recognitionused as itemId recognition result candidate.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "token",
+					"ame": "token",
 					"description": "User token acquisitionuser token to be paid out at.",
 					"type": "string"
 				}],
@@ -4717,31 +4717,31 @@
 				"operationId": "undeploying-user-category",
 				"parameters": [{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "categoryId",
+					"ame": "categoryId",
 					"description": "User category ID",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "MIME type of the received data, return the following.application \/ json; charset = UTF- 8",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "error",
+					"ame": "error",
 					"description": "Error object.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "token",
+					"ame": "token",
 					"description": "User token acquisitionuser token to be paid out at.",
 					"type": "string"
 				}],
@@ -4764,43 +4764,43 @@
 				},
 				{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "MIME type of the received data, return the following.application \/ json; charset = UTF- 8",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "description",
+					"ame": "description",
 					"description": "Status Summary statement",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "error",
+					"ame": "error",
 					"description": "Error object.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "status",
+					"ame": "status",
 					"description": "Status object",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "token",
+					"ame": "token",
 					"description": "User token acquisitionuser token to be paid out by the",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "uploadingDataJobId",
+					"ame": "uploadingDataJobId",
 					"description": "Data set creation from the image URLjob Id for checking the data set creation situation paid out by.",
 					"type": "string"
 				}],
@@ -4820,37 +4820,37 @@
 				"operationId": "image-registration-to-the-image-storage-area",
 				"parameters": [{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "MIME type of the received data, return the following.application \/ octet-stream",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "error",
+					"ame": "error",
 					"description": "Error object.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "label",
+					"ame": "label",
 					"description": "Image labelto record the name of the image recognition object that is reflected in the image.This image labelimage recognitionis returned in the results of.Image recognitionis used as itemId recognition result candidate.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "name",
+					"ame": "ame",
 					"description": "Image file nameto record the name of the image file.The image file name isimage recognitionnot be returned in the results of.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "token",
+					"ame": "token",
 					"description": "User token acquisitionuser token to be paid out at.",
 					"type": "string"
 				}],
@@ -4873,97 +4873,97 @@
 				},
 				{
 					"in": "query",
-					"name": "Accept-Encoding",
+					"ame": "Accept-Encoding",
 					"description": "gzip compressed response body If you specify the gzip is returned.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "bicycle",
+					"ame": "bicycle",
 					"description": "Sixty",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Encoding",
+					"ame": "Content-Encoding",
 					"description": "If the request body is gzip compression to specify the gzip.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "MIME type of the transmission data is selected from the following.Text \/ Tab-Separated-Values; Charset = UTF-8Application \/ json; Charset = UTF-8",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "device",
+					"ame": "device",
 					"description": "Type of device you want to use.To specify from the following string.Phone u25cfu25cf watchthe If you obtained from the smartphone phone sensor values, specify the watch If you obtained from the wristband-type device.Attachment site, smartphone pants pocket, wristband-type device is recommended the dominant arm.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "error",
+					"ame": "error",
 					"description": "Error object.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "label",
+					"ame": "label",
 					"description": "To specify the label you want to get the estimated results.To specify from the following string.u25cf When you specify a phone in DeviceStill, Walk, Run, Bicycleu25cf When you specify a watch on the DeviceStill, Walk, Run, Bicycle, Sleep, Mealseparate the label in the case of multiple comma.(Example:? Label = still, walk, run)If you do not specify a label is the same query as specifying all that can be specified label parameters.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "meal",
+					"ame": "meal",
 					"description": "180",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "run",
+					"ame": "run",
 					"description": "Sixty",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "score",
+					"ame": "score",
 					"description": "representation of the estimated results for the label in the numerical value.The closer to 1 the value, the higher the probability that had been operating for a specified label The.Type: float",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "scores",
+					"ame": "scores",
 					"description": "Estimation results list.Represented by a numeric value the estimated results for the label specified at the time of the request.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "sleep",
+					"ame": "sleep",
 					"description": "450",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "still",
+					"ame": "still",
 					"description": "180",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "timestamp",
+					"ame": "timestamp",
 					"description": "Record retrieval time.Specified in the number of milliseconds since January 1, 1970.Type: long",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "walk",
+					"ame": "walk",
 					"description": "Sixty",
 					"type": "string"
 				}],
@@ -5043,92 +5043,92 @@
 				},
 				{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "area-results",
+					"ame": "area-results",
 					"description": "Local information.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "MIME type of the transmitted data, specify the following.application \/ json",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "depend-results",
+					"ame": "depend-results",
 					"description": "Dependency information.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "error-detail",
+					"ame": "error-detail",
 					"description": "Error details.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "field-results",
+					"ame": "field-results",
 					"description": "Field information.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "intx-results",
+					"ame": "intx-results",
 					"description": "Kansei information.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "kex-results",
+					"ame": "kex-results",
 					"description": "Keyword information.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "option",
+					"ame": "option",
 					"description": "Specify the analysis options.K: keyword informationSP: Kansei information (sensibility analysis mode = conclusion)SS: Kansei information (sensibility analysis mode = opinion)SA: Kansei information (sensibility analysis mode = all)F: field informationA: local informationX: inappropriate language informationD: dependency informationN: (option to return the text that actually analysis deal) normalized analyzed textspecified in the if you specify multiple options +.(Example: K + F + A)However, SP, SS , SAcan not specify more than one at the same time.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "page-results",
+					"ame": "page-results",
 					"description": "Page processing result.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "return-code",
+					"ame": "return-code",
 					"description": "Return code.Normal, 0 is returned.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "text",
+					"ame": "text",
 					"description": "Specify the analyzed text.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "type1-results",
+					"ame": "type1-results",
 					"description": "Prohibited representation.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "type2-results",
+					"ame": "type2-results",
 					"description": "Inappropriate trend.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "type3-results",
-					"description": "Negative news.",
+					"ame": "type3-results",
+					"description": "egative news.",
 					"type": "string"
 				}],
 				"responses": {
@@ -5210,73 +5210,73 @@
 				},
 				{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "appId",
+					"ame": "appId",
 					"description": "User information acquisitionspecify the appId registered at.u203b We plan to change the near future parameter name.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "appRecvTime",
+					"ame": "appRecvTime",
 					"description": "Time that the client has received the last acquisition parameters.It specifies the current time is the case for the first time.Format: YYYY-MM-DD hh: mm: ss",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "appSendTime",
+					"ame": "appSendTime",
 					"description": "Time the client sends the transmission parameters.Format: YYYY-MM-DD hh: mm: ss",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "botId",
+					"ame": "botId",
 					"description": "Specify the APIBot",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "MIME type of the transmitted data, specify the following.application \/ json; charset = UTF- 8",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "initTalkingFlag",
+					"ame": "initTalkingFlag",
 					"description": "The first time of the speech: truethan the first: false",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "initTopicId",
+					"ame": "initTopicId",
 					"description": "APITOPIC the designationis required when initTalkingFlag is true",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "serverSendTime",
+					"ame": "serverSendTime",
 					"description": "Time that the server sent the acquisition parameters",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "systemText",
+					"ame": "systemText",
 					"description": "Reply list from the system",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "utterance",
+					"ame": "utterance",
 					"description": "Text for speech synthesis",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "voiceText",
+					"ame": "voiceText",
 					"description": "Specify the speech textinitTalkingFlag is the time of true specifies the init.",
 					"type": "string"
 				}],
@@ -5296,25 +5296,25 @@
 				"operationId": "user-id-acquisition",
 				"parameters": [{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "app_id",
+					"ame": "app_id",
 					"description": "ID to manage the dialogue statusis going to change the u203b soon parameter name.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "botId",
+					"ame": "botId",
 					"description": "To specify the APIBot.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "MIME type of the transmitted data, specify the following.application \/ json; charset = UTF- 8",
 					"type": "string"
 				}],
@@ -5337,181 +5337,181 @@
 				},
 				{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Content-Type",
+					"ame": "Content-Type",
 					"description": "MIME type of the transmitted data, specify the following.application \/ x-www-form- urlencoded",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Eight",
+					"ame": "Eight",
 					"description": "ifg",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Eighteen",
+					"ame": "Eighteen",
 					"description": "war",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Eleven",
+					"ame": "Eleven",
 					"description": "acd",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "extflg",
+					"ame": "extflg",
 					"description": "General word exclusion flag0: default value1: Do not reply to the general noun",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Fifteen",
+					"ame": "Fifteen",
 					"description": "rlg",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Five",
+					"ame": "Five",
 					"description": "adt",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Four",
+					"ame": "Four",
 					"description": "gmb",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Nine",
+					"ame": "ine",
 					"description": "stk",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "One",
+					"ame": "One",
 					"description": "arg",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "quotient_id",
+					"ame": "quotient_id",
 					"description": "Sensitive tag",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "quotient_name",
+					"ame": "quotient_name",
 					"description": "Category name that was used to determine the criteria of sensitivity tagIf there are two or more separated by [:( colon)]",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "quotient_rate",
+					"ame": "quotient_rate",
 					"description": "The content of categories in sensitive tag",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "rawdata",
+					"ame": "rawdata",
 					"description": "Analyzed sentence",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Seven",
+					"ame": "Seven",
 					"description": "brt",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Six",
+					"ame": "Six",
 					"description": "hms",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Sixteen",
+					"ame": "Sixteen",
 					"description": "plt",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "status",
+					"ame": "status",
 					"description": "Whether or not the analysis was successful or not.OK in the analysis success, failure in the NG",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Ten",
+					"ame": "Ten",
 					"description": "cym",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "text",
+					"ame": "text",
 					"description": "It specifies the string to be parsed.Must be URL encoded (UTF-8).Per request up to a maximum of 500 characters (data length before URL encoding)",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Three",
+					"ame": "Three",
 					"description": "ppm",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Twelve",
+					"ame": "Twelve",
 					"description": "scd",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Twenty",
+					"ame": "Twenty",
 					"description": "dsc",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "twentyfive",
+					"ame": "twentyfive",
 					"description": "bml",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "twentyfour",
+					"ame": "twentyfour",
 					"description": "aus",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "twentyone",
+					"ame": "twentyone",
 					"description": "dng",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "twentythree",
+					"ame": "twentythree",
 					"description": "gns",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "twentytwo",
+					"ame": "twentytwo",
 					"description": "frd",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Two",
+					"ame": "Two",
 					"description": "ins",
 					"type": "string"
 				}],
@@ -5546,31 +5546,31 @@
 				},
 				{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "description",
+					"ame": "description",
 					"description": "Genre of descriptive text (40 double-byte characters).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "genre",
+					"ame": "genre",
 					"description": "Article genre and setting information.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "lang",
+					"ame": "lang",
 					"description": "Language of articles and genre information, specify one of the following.ja: Japanese (default)En: English",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "title",
+					"ame": "title",
 					"description": "Genre of display name (40 characters).",
 					"type": "string"
 				}],
@@ -5605,19 +5605,19 @@
 				"operationId": "recommendation-reset",
 				"parameters": [{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "Authorization",
+					"ame": "Authorization",
 					"description": "OAuth authentication scheme.To specify the access token in the form of Bearer + space + &lt;access_token&gt;.For more informationAPI common referencereferring to the 2.3.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "results",
+					"ame": "results",
 					"description": "The success or failure of the reset.",
 					"type": "string"
 				}],
@@ -5643,97 +5643,97 @@
 				},
 				{
 					"in": "query",
-					"name": "APIKEY",
+					"ame": "APIKEY",
 					"description": "To use the app authentication of access to the API.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "articleContents",
+					"ame": "articleContents",
 					"description": "Array of related articles.u203b If there is no related articles, return an empty array.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "body",
+					"ame": "body",
 					"description": "Snippet of the article.u203b If the article does not contain text, this item is omitted.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "contentData",
+					"ame": "contentData",
 					"description": "Article to be displayed.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "contentId",
+					"ame": "contentId",
 					"description": "It specifies the article ID of the article to get the related article.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "contentType",
+					"ame": "contentType",
 					"description": "Article type is, return the following.10: Trends article",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "createdDate",
+					"ame": "createdDate",
 					"description": "Article creation date and time (YYYY-MM-DDThh: mm: ssTZD).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "genreId",
+					"ame": "genreId",
 					"description": "Genre ID (1 or more integer).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "imageSize",
+					"ame": "imageSize",
 					"description": "The size of the images contained in the article return longitudinal px, lateral px.u203b If you do not include the image in the article, this item is omitted.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "imageUrl",
+					"ame": "imageUrl",
 					"description": "URL of the image that is included in the article.u203b If you do not include the image in the article, this item is omitted.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "linkUrl",
+					"ame": "linkUrl",
 					"description": "URL of the article.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "relatedContents",
+					"ame": "relatedContents",
 					"description": "For the relevant article, if further related article exists to return a URL that includes an end point and the article ID.u203b If the related article does not exist, this item is omitted.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "sourceDomain",
+					"ame": "sourceDomain",
 					"description": "Distribution source domain.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "sourceName",
+					"ame": "sourceName",
 					"description": "Distribution source name.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "totalResults",
+					"ame": "totalResults",
 					"description": "Total number of related article (an integer greater than or equal to 0).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "width",
+					"ame": "width",
 					"description": "The number of horizontal pixels of the image.",
 					"type": "string"
 				}],
@@ -5756,49 +5756,49 @@
 				},
 				{
 					"in": "query",
-					"name": "Authorization",
+					"ame": "Authorization",
 					"description": "OAuth authentication scheme.To specify the access token in the form of Bearer + space + &lt;access_token&gt;.For more informationAPI common referencereferring to the 2.3.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "contentId",
+					"ame": "contentId",
 					"description": "Article ID (long Type: until 9223372036854775807).Information about whether you are viewing any article.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "contentType",
+					"ame": "contentType",
 					"description": "Visited article type.Setting the article type that is returned from the server.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "genreId",
+					"ame": "genreId",
 					"description": "Genre ID (1 or more integer).Information about whether you are viewing the article you have to obtain which genre specified by.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "keyword",
+					"ame": "keyword",
 					"description": "Keyword used in the search.Information about whether you are viewing the article you search for any keyword.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "log",
+					"ame": "log",
 					"description": "Array of log to be sent.The order of the array is arbitrary.",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "totalResults",
+					"ame": "totalResults",
 					"description": "Specify the number of logs to be sent (specify up to 100 possible).",
 					"type": "string"
 				},
 				{
 					"in": "query",
-					"name": "url",
+					"ame": "url",
 					"description": "URL of the article.",
 					"type": "string"
 				}],

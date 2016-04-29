@@ -6,9 +6,9 @@
       API in order to recognize the characters that appear with an image, etc. You can
       choose the APIs that best match your service concept to start developing innovate
       apps.
-    termsOfService: https://dev.smt.docomo.ne.jp/?p=policy
+    termsOfService: https://dev.smt.docomo.e.jp/?p=policy
     version: v1
-  host: api.apigw.smt.docomo.ne.jp
+  host: api.apigw.smt.docomo.e.jp
   basePath: /
   schemes:
   - http
@@ -598,7 +598,7 @@
           description: Meta information.
           type: string
         - in: query
-          name: name
+          name: ame
           description: Full path of file or folder name.
           type: string
         - in: query
@@ -647,7 +647,7 @@
     /box_a2/4.0/delete_all_:
       get:
         summary: Deletion of Entire Data
-        description: Deletes all the folders and files of corresponding users.Note,
+        description: Deletes all the folders and files of corresponding users.ote,
           however, that in case an owner AP code is entered, only the folders and files
           of applications speciied with the corresponding owner AP code are deleted.Except
           for data storage box application, deletes collaborating application folders
@@ -726,11 +726,11 @@
         - in: query
           name: move_date
           description: Final move update date and time(yyyy/mm/dd hh:mm:ss Format)Final
-            date when the folders/files under the specified folder moved.Null is set
+            date when the folders/files under the specified folder moved.ull is set
             in case movement has not taken place.
           type: string
         - in: query
-          name: name
+          name: ame
           description: Full path of file or folder names.
           type: string
         - in: query
@@ -837,8 +837,8 @@
           description: Total number of meta information specified with the request.
           type: string
         - in: query
-          name: name
-          description: Names of files/folders to be deleted(Full path).See u4f7fu7528u53efu80fdu6587u5b57u3001u4f7fu7528u7981u6b62u6587u5b57u306bu3064u3044u3066(Allowed
+          name: ame
+          description: ames of files/folders to be deleted(Full path).See u4f7fu7528u53efu80fdu6587u5b57u3001u4f7fu7528u7981u6b62u6587u5b57u306bu3064u3044u3066(Allowed
             characters, prohibited characters) in thespecificationfor details.
           type: string
         - in: query
@@ -848,7 +848,7 @@
           type: string
         - in: query
           name: revision
-          description: 'Revision number(1uff5e2147483647).Not specified: Delete without
+          description: 'Revision number(1uff5e2147483647).ot specified: Delete without
             checking the revision.Specified: Delete by checking the revision.'
           type: string
         - in: query
@@ -929,7 +929,7 @@
           description: Meta information.
           type: string
         - in: query
-          name: name
+          name: ame
           description: Full path of file or folder names.Renamed in case HTTP status
             is 201.
           type: string
@@ -940,7 +940,7 @@
           type: string
         - in: query
           name: revision
-          description: 'Revision number(1uff5e2147483647).At new uploading: Not specified.At
+          description: 'Revision number(1uff5e2147483647).At new uploading: ot specified.At
             uploading updates: Specified.'
           type: string
         - in: query
@@ -1209,7 +1209,7 @@
           type: string
         - in: query
           name: X-ResponseCode
-          description: 'Responsive code, any of the following is returned.200 OK: normal200
+          description: 'Responsive code, any of the following is returned.200 OK: ormal200
             OK except: Abnormalu203b except 200 OK, following response code detailsee.'
           type: string
         responses:
@@ -1350,7 +1350,7 @@
           description: Content at the time of the error
           type: string
         - in: query
-          name: Novalue
+          name: ovalue
           type: string
         - in: query
           name: One
@@ -1445,7 +1445,7 @@
           type: string
         - in: query
           name: X-ResponseCode
-          description: 'Responsive code, any of the following is returned.200 OK: normal200
+          description: 'Responsive code, any of the following is returned.200 OK: ormal200
             OK except: Abnormalu203b except 200 OK, following response code detailsee.'
           type: string
         responses:
@@ -1618,33 +1618,33 @@
           description: Hita
           type: string
         - in: query
-          name: Nagano
+          name: agano
           description: Suwa
           type: string
         - in: query
-          name: Nagoya
+          name: agoya
           description: Fukui
           type: string
         - in: query
-          name: Naha
+          name: aha
           description: Kumejima
           type: string
         - in: query
-          name: nickname
+          name: ickname
           description: Specify the nickname of the user (10 full-width characters (up
             to 10 characters) or less)sample values) light
           type: string
         - in: query
-          name: nickname_y
+          name: ickname_y
           description: Specify the reading of the users nickname (40 characters or less
             (Katakana only))sample value) Hikari
           type: string
         - in: query
-          name: Niihama
+          name: iihama
           description: Kochi
           type: string
         - in: query
-          name: Nobeoka
+          name: obeoka
           description: Takachiho
           type: string
         - in: query
@@ -1810,19 +1810,19 @@
     /ekispertCorp/v1/courseCreate:
       get:
         summary: Generation of route
-        description: 'nTrain timetable is the path generation function using the
+        description: 'Train timetable is the path generation function using the
           results of. Station, train, date, by setting the time correctly, you
-          can generate any of the route.nThe information required to generate a route
+          can generate any of the route.The information required to generate a route
           there is something like the following,n &lt;A Requested Procedure Eki&gt;
           (date when the Requested Procedure)? [Train]? (To the time) &lt;to the Eki&gt;nYou
-          specify these as follows.n viaList = departure station: arrival station &amp;
+          specify these as follows. viaList = departure station: arrival station &amp;
           fixedTrainList = train &amp; fixedTimeList = departure time: arrival time
           &amp; fixedDateList = departure date (service day)nFor station code and station
           namenYou can use the station code or station name as the data that identifies
           the station, but if you want to use as a premise to save is recommended to
           station code. Station name might be changed in the station name was renamed,
           etc., but brute string to the station name, station code is a constant regardless
-          of the change of station name.n'
+          of the change of station name.'
         operationId: generation-of-route
         parameters:
         - in: query
@@ -1945,13 +1945,13 @@
     /ekispertCorp/v1/courseRepayment:
       get:
         summary: Refund calculation of season ticket
-        description: nObtain multiple combinations of commuter pass which is the basis
+        description: Obtain multiple combinations of commuter pass which is the basis
           of the refund calculationnFor station code and station namenYou can use the
           station code or station name as the data that identifies the station, but
           if you want to use as a premise to save is recommended to station code. Station
           name might be changed in the station name was renamed, etc., but brute string
           to the station name, station code is a constant regardless of the change of
-          station name.n
+          station name.
         operationId: refund-calculation-of-season-ticket
         parameters:
         - in: query
@@ -1997,12 +1997,12 @@
     /ekispertCorp/v1/courseTimetableTrain:
       get:
         summary: Interval timetable train information of
-        description: nInterval timetable to get the train information in the datanFor
+        description: Interval timetable to get the train information in the datanFor
           station code and station namenYou can use the station code or station name
           as the data that identifies the station, but if you want to use as a premise
           to save is recommended to station code. Station name might be changed
           in the station name was renamed, etc., but brute string to the station name,
-          station code is a constant regardless of the change of station name.n
+          station code is a constant regardless of the change of station name.
         operationId: interval-timetablenbsptrain-information-of
         parameters:
         - in: query
@@ -2018,7 +2018,7 @@
     /ekispertCorp/v1/dataversion:
       get:
         summary: Data version
-        description: nTo get more information on the data after the station span
+        description: To get more information on the data after the station span
         operationId: data-version
         parameters:
         - type: apiversion
@@ -2034,30 +2034,30 @@
     /ekispertCorp/v1/searchCourseExtreme:
       get:
         summary: Road Exploration
-        description: nBetween the specified station or point, and search for a route
+        description: Between the specified station or point, and search for a route
           using public transportation. Search by the average waiting time and,
-          search by the diamond (departure time search, etc.) can be done.nSearch by
+          search by the diamond (departure time search, etc.) can be done.Search by
           the average waiting timenTaking into account the average waiting time of the
           train you do a search for a route. The average waiting time is, thats
           flying has been set in about 20 minutes, even if there is only one flight
           per day, it does not match the actual waiting time. In addition, with
           regard to the comprehensive coverage that operate by day of the week, we try
-          to search for a route to ignore the departure date.nInter u30a4 Yakult ni
+          to search for a route to ignore the departure date.Inter u30a4 Yakult ni
           yo ru Exploration (Requested Procedure time to explore, the time to explore,
           and finally electrical exploration, beginning to explore Requested Procedure)nFrom
           diamond timetable,nnDeparture time search, early arrival and late departure
           routenRoute arrival time search is to arrive early and late departurenRoute
           last train search, to arrive at the final diamond of departure / arrival date
           (until the next day at 3 am)nRoute first train search, to the earliest arriving
-          starting to departure / arrival datennIt will search each.nResult route may
+          starting to departure / arrival datennIt will search each.Result route may
           not exist as (have to suppress the use of the airplane in the search to the
           airport, the route can not be created in a fixed route, etc.), an empty result
-          is returned instead of the error.nFor station code and station namenYou can
+          is returned instead of the error.For station code and station namenYou can
           use the station code or station name as the data that identifies the station,
           but if you want to use as a premise to save is recommended to station code. Station
           name might be changed in the station name was renamed, etc., but brute string
           to the station name, station code is a constant regardless of the change of
-          station name.n
+          station name.
         operationId: -road-exploration
         parameters:
         - in: query
@@ -2173,12 +2173,12 @@
     /ekispertCorp/v1/searchCoursePlain:
       get:
         summary: Average waiting time search
-        description: nThe average waiting time search only route search is.nFor
+        description: The average waiting time search only route search is.For
           station code and station namenYou can use the station code or station name
           as the data that identifies the station, but if you want to use as a premise
           to save is recommended to station code. Station name might be changed
           in the station name was renamed, etc., but brute string to the station name,
-          station code is a constant regardless of the change of station name.n
+          station code is a constant regardless of the change of station name.
         operationId: the-average-waiting-time-search
         parameters:
         - in: query
@@ -2230,7 +2230,7 @@
     /ekispertCorp/v1/shipTimetable:
       get:
         summary: Sailing route Timetable
-        description: nIt gets the time table from the voyage route name.n
+        description: It gets the time table from the voyage route name.
         operationId: sailing-route-timetable
         parameters:
         - in: query
@@ -2255,12 +2255,12 @@
     /ekispertCorp/v1/stationTimetableTrain:
       get:
         summary: Station timetableu00a0train information
-        description: nStation timetable to get the train information in the data.nFor
+        description: Station timetable to get the train information in the data.For
           station code and station namenYou can use the station code or station name
           as the data that identifies the station, but if you want to use as a premise
           to save is recommended to station code. Station name might be changed
           in the station name was renamed, etc., but brute string to the station name,
-          station code is a constant regardless of the change of station name.n
+          station code is a constant regardless of the change of station name.
         operationId: station-timetablenbsptrain-information-of
         parameters:
         - in: query
@@ -2276,24 +2276,24 @@
     /ekispertCorp/v1/toolboxCourseCondition:
       get:
         summary: Explore condition generation
-        description: nBased on the request parameters route search to generate
-          the conditions to be used for.nIf not specified detail, it generates a search
-          condition based on the default of the conditions.nIf you specify the detail,
+        description: Based on the request parameters route search to generate
+          the conditions to be used for.If not specified detail, it generates a search
+          condition based on the default of the conditions.If you specify the detail,
           and replace the value of the specified parameters with respect to the value
           of detail. In other words, you can obtain a modification of the part
-          of the detailed search conditions data previously generated.n
+          of the detailed search conditions data previously generated.
         operationId: explore-condition-generation
         parameters:
         - in: query
           name: airFare
-          description: 'Designation of airfare.Always adopting the normal fares: normal,
+          description: 'Designation of airfare.Always adopting the normal fares: ormal,
             adopted a specific flight discount as much as possible: tokuwari (. Or optional
             default is tokuwari, the value of the detail)'
           type: string
         - in: query
           name: connectionBus
-          description: 'Contact bus.Feel free to use: light, commonly available: normal,
-            do not use as much as possible: bit, do not use: never (. Or optional default
+          description: 'Contact bus.Feel free to use: light, commonly available: ormal,
+            do not use as much as possible: bit, do not use: ever (. Or optional default
             is normal, the value of the detail)'
           type: string
         - in: query
@@ -2310,7 +2310,7 @@
         - in: query
           name: expressStartingStation
           description: 'Express starting station.Search typeis valid only in the case
-            of the plain.As much as possible use: possible, commonly available: normal
+            of the plain.As much as possible use: possible, commonly available: ormal
             (. Or optional default is normal, the value of the detail)'
           type: string
         - in: query
@@ -2321,8 +2321,8 @@
           type: string
         - in: query
           name: highwayBus
-          description: 'Express bus.Feel free to use light, commonly available: normal,
-            we do not use as much as possible: bit, do not use: never (. Optional default
+          description: 'Express bus.Feel free to use light, commonly available: ormal,
+            we do not use as much as possible: bit, do not use: ever (. Optional default
             is normal or the value of the detail)'
           type: string
         - in: query
@@ -2338,18 +2338,18 @@
           type: string
         - in: query
           name: limitedExpress
-          description: 'Pay express.To use: normal, do not use: never (. Or optional
+          description: 'Pay express.To use: ormal, do not use: ever (. Or optional
             default is normal, the value of the detail)'
           type: string
         - in: query
           name: liner
           description: 'Pay local train.Search typeis invalid if it is not already plain.To
-            use: normal, do not use: never (. Or optional default is normal, the value
+            use: ormal, do not use: ever (. Or optional default is normal, the value
             of the detail)'
           type: string
         - in: query
           name: localBus
-          description: 'bus.To use: normal, do not use: never (. Or optional default
+          description: 'bus.To use: ormal, do not use: ever (. Or optional default
             is normal, the value of the detail)'
           type: string
         - in: query
@@ -2361,49 +2361,49 @@
         - in: query
           name: midnightBus
           description: 'Midnight express bus.Search typeis invalid if it is not already
-            plain.To use: normal, do not use: never (. Or optional default is never,
+            plain.To use: ormal, do not use: ever (. Or optional default is never,
             the value of the detail)'
           type: string
         - in: query
-          name: nikukanteiki
+          name: ikukanteiki
           description: '(And Daburu, JR2 interval regular) 2 section regularly use true:
             use to false: do not use (Optional default is default value false: do not
             use)'
           type: string
         - in: query
           name: plane
-          description: 'airplane.Feel free to use: light, commonly available: normal,
-            do not use as much as possible: bit, do not use: never (. Or optional default
+          description: 'airplane.Feel free to use: light, commonly available: ormal,
+            do not use as much as possible: bit, do not use: ever (. Or optional default
             is normal, the value of the detail)'
           type: string
         - in: query
           name: preferredTicketOrder
           description: 'The order of priority ticket.Valid only if you set the ic in
-            the ticket computing system.Unspecified: none, give priority to ordinary
-            ticket: normal, priority is given to IC card ticket: ic, give priority to
+            the ticket computing system.Unspecified: one, give priority to ordinary
+            ticket: ormal, priority is given to IC card ticket: ic, give priority to
             cheap ticket: cheap (. Optional default is either none, the value of the
             detail)'
           type: string
         - in: query
           name: shinkansen
-          description: 'Shinkansen.To use: normal, do not use: never (. Or optional
+          description: 'Shinkansen.To use: ormal, do not use: ever (. Or optional
             default is normal, the value of the detail)'
           type: string
         - in: query
           name: shinkansenNozomi
-          description: 'Shinkansen Nozomi.To use: normal, do not use: never (. Or optional
+          description: 'Shinkansen Nozomi.To use: ormal, do not use: ever (. Or optional
             default is normal, the value of the detail)'
           type: string
         - in: query
           name: ship
-          description: 'boat.Feel free to use: light, commonly available: normal, do
-            not use as much as possible: bit, do not use: never (. Or optional default
+          description: 'boat.Feel free to use: light, commonly available: ormal, do
+            not use as much as possible: bit, do not use: ever (. Or optional default
             is normal, the value of the detail)'
           type: string
         - in: query
           name: sleeperTrain
           description: 'Sleeper train.As much as possible to use: possible, commonly
-            available: normal, do not use: never (. Or optional default is never, the
+            available: ormal, do not use: ever (. Or optional default is never, the
             value of the detail)'
           type: string
         - in: query
@@ -2432,13 +2432,13 @@
         - in: query
           name: transfer
           description: 'Transfer.Search typeis valid only in the case of the plain.Do
-            not mind: normal, a little care: little, do not use: never (. Or optional
+            not mind: ormal, a little care: little, do not use: ever (. Or optional
             default is normal, the value of the detail)'
           type: string
         - in: query
           name: transferTime
           description: 'Transfer time.Search typeis invalid if it is not already plain.Station
-            Spa default after: normal, watch a little bit of margin than the default
+            Spa default after: ormal, watch a little bit of margin than the default
             value: moreMargin, see the margin than the default value: mostMargin, to
             a shorter time than the default value:. LessMargin (or optional default
             is normal, of detail value)'
@@ -2446,7 +2446,7 @@
         - in: query
           name: useJR
           description: 'JR line.Search typeis valid only in the case of the plain.Feel
-            free to use light, commonly available: normal, do not use as much as possible:
+            free to use light, commonly available: ormal, do not use as much as possible:
             bit (. Or optional default is normal, the value of the detail)'
           type: string
         - in: query
@@ -2459,7 +2459,7 @@
         - in: query
           name: walk
           description: 'Station between the walk.Search typeis valid only in the case
-            of the plain.Do not mind: normal, a little care: little, do not use: never
+            of the plain.Do not mind: ormal, a little care: little, do not use: ever
             (. Or optional default is normal, the value of the detail)'
           type: string
         responses:
@@ -2471,12 +2471,12 @@
     /ekispertCorp/v1/toolboxCoursePoint:
       get:
         summary: Location generated
-        description: nRoute search to generate a data point to be used fornFor
+        description: Route search to generate a data point to be used fornFor
           station code and station namenYou can use the station code or station name
           as the data that identifies the station, but if you want to use as a premise
           to save is recommended to station code. Station name might be changed
           in the station name was renamed, etc., but brute string to the station name,
-          station code is a constant regardless of the change of station name.n
+          station code is a constant regardless of the change of station name.
         operationId: location-generated
         parameters:
         - in: query
@@ -2490,8 +2490,8 @@
             The circle)
           type: int
         - in: query
-          name: name
-          description: name
+          name: ame
+          description: ame
           type: string
         - in: query
           name: station
@@ -2536,15 +2536,15 @@
     /ekispertCorp/v1/trainTimetable:
       get:
         summary: Train schedule
-        description: nIt gets the operation section lists and train timetable.nAs the
+        description: It gets the operation section lists and train timetable.As the
           usage method,n 1. Get the service interval list without specifying the serviceSectionCoden
           2. Get the train timetable and specify the service interval code of the list
-          to serviceSectionCodenIt will flow that.nFor station code and station namenYou
+          to serviceSectionCodenIt will flow that.For station code and station namenYou
           can use the station code or station name as the data that identifies the station,
           but if you want to use as a premise to save is recommended to station code. Station
           name might be changed in the station name was renamed, etc., but brute string
           to the station name, station code is a constant regardless of the change of
-          station name.n
+          station name.
         operationId: train-schedule
         parameters:
         - in: query
@@ -2553,7 +2553,7 @@
             to date)
           type: int
         - in: query
-          name: number
+          name: umber
           description: The number of issue.serviceSectionCode at the same time to narrow
             down the timetable in the specified to issue number.(Multiple designation
             possible. Optional. The default will be not specified)
@@ -2769,7 +2769,7 @@
             simultaneously with Updated date &amp; time (Minimum value)'
           type: string
         - in: query
-          name: next_page
+          name: ext_page
           description: 'Starting number of the next page.u30fbWith the next page : Starting
             number + The number of contentsu30fbWithout the next page : 0'
           type: string
@@ -2992,7 +2992,7 @@
           description: Media type of images.image/jpeg
           type: string
         - in: query
-          name: ng_list
+          name: g_list
           description: Acquisition failure list.
           type: string
         - in: query
@@ -3038,7 +3038,7 @@
         - in: query
           name: info_filter
           description: 'Morphological information filter, specify one of the following.If
-            you want to specify more than one, | specified, separated by.Notation: formmorpheme:
+            you want to specify more than one, | specified, separated by.otation: formmorpheme:
             posreading: ReadForm | pos | Read (default)'
           type: string
         - in: query
@@ -3049,7 +3049,7 @@
           type: string
         - in: query
           name: request_id
-          description: Specify the request ID.The default is, labs.goo.ne.jp [tab character]
+          description: Specify the request ID.The default is, labs.goo.e.jp [tab character]
             request reception time [tab character] serial number is specified.
           type: string
         - in: query
@@ -3095,7 +3095,7 @@
           type: string
         - in: query
           name: request_id
-          description: Specify the request ID.The default is, labs.goo.ne.jp [tab character]
+          description: Specify the request ID.The default is, labs.goo.e.jp [tab character]
             request reception time [tab character] serial number is specified.
           type: string
         - in: query
@@ -3583,9 +3583,9 @@
           name: media
           type: string
         - in: query
-          name: numOfCandidates
+          name: umOfCandidates
           description: It specifies the number of candidates to be displayed as a result
-            of the recognition of image recognition.Natural number of from 1 to 20 (the
+            of the recognition of image recognition.atural number of from 1 to 20 (the
             default value is 10).
           type: string
         - in: query
@@ -3903,7 +3903,7 @@
           description: Error object.
           type: string
         - in: query
-          name: name
+          name: ame
           description: Field for a summary of the user categorycharacter class [a-zA-Z0-9_
             &yen; - ]string that has been configured with a character that belongs to
             the
@@ -4208,7 +4208,7 @@
             candidate.
           type: string
         - in: query
-          name: name
+          name: ame
           description: Image file nameto record the name of the image file.The image
             file name isimage recognitionnot be returned in the results of.
           type: string
@@ -4443,7 +4443,7 @@
           type: string
         - in: query
           name: return-code
-          description: Return code.Normal, 0 is returned.
+          description: Return code.ormal, 0 is returned.
           type: string
         - in: query
           name: text
@@ -4459,7 +4459,7 @@
           type: string
         - in: query
           name: type3-results
-          description: Negative news.
+          description: egative news.
           type: string
         responses:
           The API version you requested is inactive.:
@@ -4680,7 +4680,7 @@
           description: gmb
           type: string
         - in: query
-          name: Nine
+          name: ine
           description: stk
           type: string
         - in: query
